@@ -1,0 +1,44 @@
+@charset "gb2312";
+/*go to myjjsty*/
+.LRcen{width:958px; border:1px solid #ffb506; background:#fff; position:relative; _height:640px; min-height:640px;}
+.porHand{ float:left; width:600px; display:inline; margin-left:10px;}
+.porHand li{ clear:both; line-height:22px; padding:10px 0; border-bottom:1px dashed #e2e2e2; float:left; width:600px;}
+.porHand b{ font-family:SimHei; font-size:16px; font-weight:normal; display:block;}
+.porHand img{ float:left; padding:4px 10px 0 0;}
+.porHand span{ float:left; width:496px; color:#999;}
+.porHand a{ font-weight:bold; color:#F00; text-decoration:underline;}
+.porHandR{ float:right; width:300px; background:#f3f3f3; display:inline; margin:10px; padding:4px;}
+.porHandR .Ti{ font-size:18px; text-align:center; font-family:SimHei; line-height:28px; height:28px; background:#e1e1e1;}
+.porHandR .Do{ text-align:center; padding:12px 0;}
+.porHandR .Do a{ background:#fff; padding:4px 16px;}
+.porHandR .Te{ line-height:24px; padding-left:22px; padding-bottom:4px;}
+.porHandR .Li{ line-height:20px; padding:6px;}
+
+.porHandLc{ display:block; clear:both; font-size:18px; font-family:SimHei; text-align:center; background:#efefef; margin:0 4px; line-height:32px;}
+.porHandImg{ text-align:center; padding:10px 0 40px 0;}
+.LRcenList{ font-size:14px;font-weight:bold; line-height:32px; background:#f4ece1; float:left;}
+.LRcenList li{ width:174px; text-align:right; padding-right:10px; border-right:1px solid #d4bea2; clear:both;}
+.LRcenList li.hov{ padding:0 0 0 0; display:inline; float:left; margin-left:10px; border:1px solid #d4bea2; border-right:1px solid #fff;}
+.LRcenList li.hov a{ display:block; background:#fff; padding-right:6px;}
+.LRcenList span{ font-size:12px; font-weight:normal; display:block;}
+.LRcenList a{ color:#65471e;}
+.LRcenList .D{ text-align:left; padding:6px 0 6px 10px; line-height:18px; background:#eae1d5; border-bottom:1px solid #d4bea2;}
+
+.RRcen{float:right; width:750px; display:inline; margin-right:10px; line-height:24px;}
+.RRcen h1{ font-size:16px; font-family:SimHei; text-align:center; font-weight:normal; line-height:48px; border-bottom:1px dashed #e2e2e2; margin-bottom:10px;}
+.RRcen h2{ line-height:36px; font-size:14px;}
+.RRcen a{ color:#F00;}
+.RRcen h3{ font-size:12px;}
+
+
+
+
+
+
+
+
+
+
+
+
+

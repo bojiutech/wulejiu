@@ -1,0 +1,86 @@
+@import url(http://www.wanmei.com/top/css/iframe.css);
+@import url(http://www.wanmei.com/style/wanmei_logo.css);
+html {min-width:1002px;}
+body{ margin:0; padding:0;font-size:14px; color:#000;font-family:"宋体",Arial, Helvetica, sans-serif;}
+div,img,ul,ol,li ,p,h1,h2,h3,h4{margin:0;padding:0;border:0;list-style:none;}
+.clear{content:"";display:block;clear:both;}
+a{blr:expression(this.onFocus=this.blur()); outline:none;}
+area{blr:expression(this.onFocus=this.blur());outline:none;}
+a {color:#000000;text-decoration:none;}
+a:link {color:#000000; text-decoration:none;}
+a:visited {color:#000000;text-decoration:none;}
+a:hover {color:#000000; text-decoration:underline;} 	
+#bg{background:#FFF url(../images/bg.jpg) center top no-repeat;}
+#wrapper{width:100%;min-width:1002px;margin:0 auto;}
+#cont,.banner_box{width:1002px;margin:0 auto; position:relative;}
+.banner_box{overflow:hidden;}
+.banner_box img{ float:left;}
+
+.main_wrap_rep{width:1002px;background:url(../images/main_wrap_rep.jpg) center repeat-y;}
+.main_wrap_bot{padding-bottom:40px;background:url(../images/main_wrap_bot.jpg) center bottom no-repeat;}
+.main_wrap_top{padding-top:10px;background:url(../images/main_wrap_top.jpg) center top no-repeat;}
+/*简介可延伸框*/
+.intro_box_rep{margin:0 auto;width:944px;background:url(../images/intro_box_rep.jpg) center repeat-y;}
+.intro_box_bot{padding-bottom:10px;background:url(../images/intro_box_bot.jpg) center bottom no-repeat;}
+.intro_box_top{padding-top:10px;background:url(../images/intro_box_top.jpg) center top no-repeat;}
+.intro_box_top .intro{padding:0 20px;}
+.intro_box_top p{font-size:14px;line-height:26px;text-indent:2em;}
+/*右侧样式*/
+#left_side{float:left;margin-left:30px;margin-top:10px;display:inline;}
+#left_side .list_box{width:580px;margin-bottom:20px;padding-bottom:24px;overflow:hidden;border-bottom:1px dotted #3b5c61;}
+#left_side .list_box img{float:left;width:115px;padding-top:20px;margin-right:10px;}
+#left_side .list_box h2{float:left;width:448px;height:24px;line-height:24px;font-size:14px;font-weight:bold;text-align:center;background:url(../images/bar_bg.jpg) center no-repeat;}
+#left_side .list_box h2 a,#left_side .list_box h2 a:link,#left_side .list_box h2 a:visited,#left_side .list_box h2 a:hover{color:#003f63;text-decoration:none;}
+#left_side .list_box p{float:left;width:446px;padding-top:6px;font-size:12px;line-height:25px;text-indent:2em;}
+#left_side .list_box p span a:link,#left_side .list_box p span a:visited,#left_side .list_box p span a:hover,#left_side .list_box p span a:active{color:#f00;text-decoration:underline;}
+/*FQA*/
+#right_side{float:left;margin-left:20px;margin-top:10px;display:inline;}
+#right_side .tel_table .bbm{width:148px;height:32px;margin:0 10px;text-align:center;display:block;line-height:32px;font-size:14px;font-weight:bold;background:url(../images/btn_bg.jpg) no-repeat center;}
+#right_side .tel_table td{padding:4px 0;}
+#right_side .tel_table .bbm:hover{color:#f00;text-decoration:underline;}
+
+.box_rep{margin-top:4px;width:338px;background:url(../images/box_rep.jpg) center repeat-y;}
+.box_bot{padding-bottom:12px;background:url(../images/box_bot.jpg) center bottom no-repeat;}
+.box_top{padding-top:44px;background:url(../images/box_top.jpg) center top no-repeat;}
+.box_top ul{width:316px;margin:0px auto;line-height:24px;font-size:14px;}
+/*流程图*/
+.process_box_rep{width:930px;margin:0 auto;background:url(../images/process_box_rep.jpg) center repeat-y;}
+.process_box_bot{padding-bottom:20px;background:url(../images/process_box_bot.jpg) center bottom no-repeat;}
+.process_box_top{padding-top:50px;background:url(../images/process_box_top.jpg) center top no-repeat;}
+.process_map{position:relative;width:914px;height:224px;margin:0 auto;background:url(../images/process_map.jpg) center top no-repeat;font-size:12px;}
+.process_map p{position:absolute;width:113px;height:38px;text-align:center;line-height:16px;color:#6c6c6c;left: 223px;top: 154px;}
+.process_map .step_01{
+	top:10px;
+	left:92px;
+	width:200px;
+	text-align:left
+}
+.process_map .step_02{
+	top:14px;
+	left:343px;
+}
+.process_map .step_03{top:18px;left:464px;text-align:left;}
+.process_map .step_04{top:36px;left:578px;color:#043d65;font-size:14px;}
+.process_map .step_05{top:28px;left:692px;color:#043d65;font-size:14px;}
+.process_map .step_06{top:38px;left:806px;color:#1e7300;font-size:14px;}
+.process_map .step_07{top:110px;left:0px;color:#043d65;font-size:14px;}
+.process_map .step_08{top:108px;left:115px;color:#043d65;font-size:14px;}
+.process_map .step_09{top:108px;left:232px;color:#043d65;font-size:14px;}
+.process_map .step_10{top:109px;left:348px;color:#043d65;font-size:14px;}
+.process_map .step_11{top:103px;left:459px;color:#766400;font-size:14px;}
+.process_map .step_12{top:163px;left:214px;text-align:left;width:150px;}
+.process_map .step_13{top:173px;left:557px;width:150px;color:#043d65;font-size:14px;}
+.process_map .step_14{top:180px;left:676px;width:150px;color:#620101;font-size:14px;}
+.menu_iframe,.content_iframe{float:left;display:inline;padding-bottom:10px;}
+.menu_table{width:260px;height:440px;}
+.menu_table td{padding:5px 0;text-align:center;width:260px;}
+.menu_table  .menu{width:255px;height:51px;line-height:51px;display:block;font-size:16px;text-align:center;font-weight:bold;background:url(../images/menu_bg.jpg) no-repeat center;}
+.menu_table .menu_cz{width:256px;height:27px;display:block;line-height:27px;font-size:14px;font-weight:bold;text-align:center;}
+.menu_table .menu_down{margin:0 auto;width:231px;height:51px;display:block;line-height:51px;font-size:16px;font-weight:bold;text-align:center;background:url(../images/menu_down_bg.jpg) no-repeat center;}
+.menu_table a:hover{color:#f00;}
+.menu_bot{border-right:1px solid #c7c7c8;border-left:1px solid #c7c7c8;border-bottom:1px solid #c7c7c8;width:256px;height:170px;background:url(../images/cz_file_bg.jpg) no-repeat center top;overflow:hidden;}
+.menu_bot h2{font-size:14px;padding-top:6px;}
+.doc {float:left;display:inline;padding-bottom:30px;}
+a.fubiao_link:link, a.fubiao_link:visited, a.fubiao_link:active { color:#F00; text-decoration:none; font-size:14px} 
+a.fubiao_link:hover { color:#F00; text-decoration:underline;} 
+#account{display:none;}

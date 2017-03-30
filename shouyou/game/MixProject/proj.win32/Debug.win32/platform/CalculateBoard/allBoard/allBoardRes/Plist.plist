@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>platform/CalculateBoard/allBoard/allBoardRes/a5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{633,71},{155,106}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{155,106}</string>
+			</dict>
+			<key>platform/CalculateBoard/allBoard/allBoardRes/createroom_biaoti.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{75,97},{59,72}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{59,72}</string>
+			</dict>
+			<key>platform/CalculateBoard/allBoard/allBoardRes/main_touxiangk.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{500,73},{98,101}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{98,101}</string>
+			</dict>
+			<key>platform/CalculateBoard/allBoard/allBoardRes/main_touxiangk1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,97},{74,75}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{74,75}</string>
+			</dict>
+			<key>platform/CalculateBoard/allBoard/allBoardRes/over_fangzhu.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{864,147},{38,33}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{38,33}</string>
+			</dict>
+			<key>platform/CalculateBoard/allBoard/allBoardRes/over_fanhui.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{147,97},{55,61}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{55,61}</string>
+			</dict>
+			<key>platform/CalculateBoard/allBoard/allBoardRes/over_paijujieshu.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{633,0},{272,71}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{272,71}</string>
+			</dict>
+			<key>platform/CalculateBoard/allBoard/allBoardRes/over_shule.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{905,0},{172,96}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{172,96}</string>
+			</dict>
+			<key>platform/CalculateBoard/allBoard/allBoardRes/over_win.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{358,73},{142,86}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{142,86}</string>
+			</dict>
+			<key>platform/CalculateBoard/allBoard/allBoardRes/over_xuanyao.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{902,172},{196,75}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{196,75}</string>
+			</dict>
+			<key>platform/CalculateBoard/allBoard/allBoardRes/over_zongchengji.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{864,71},{76,27}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{76,27}</string>
+			</dict>
+			<key>platform/CalculateBoard/allBoard/allBoardRes/play_diban1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{358,0},{73,275}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{73,275}</string>
+			</dict>
+			<key>platform/CalculateBoard/allBoard/allBoardRes/play_jinbi.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{864,180},{26,25}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{26,25}</string>
+			</dict>
+			<key>platform/CalculateBoard/allBoard/allBoardRes/set_ok.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{788,71},{204,76}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{204,76}</string>
+			</dict>
+			<key>platform/CalculateBoard/allBoard/allBoardRes/xiaoyingyiba.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{358,97}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{358,97}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>Plist.png</string>
+			<key>realTextureFileName</key>
+			<string>Plist.png</string>
+			<key>size</key>
+			<string>{1024,512}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>512</integer>
+		</dict>
+	</dict>
+</plist>

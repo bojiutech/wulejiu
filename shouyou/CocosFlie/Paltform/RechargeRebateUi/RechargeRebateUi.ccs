@@ -1,0 +1,34 @@
+<Solution>
+  <PropertyGroup Name="RechargeRebateUi" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="platform">
+          <Folder Name="common">
+            <Image Name="close_btn.png" />
+            <Image Name="common_bg.png" />
+            <Image Name="dialog_bg.png" />
+            <Image Name="dialog_frame.png" />
+            <Image Name="edit_bg.png" />
+            <Image Name="frame.png" />
+            <Image Name="gray_btn.png" />
+            <Image Name="gree_btn.png" />
+            <Image Name="line.png" />
+            <Image Name="red_btn.png" />
+          </Folder>
+          <Folder Name="RechargeRebate">
+            <Folder Name="Res">
+              <Folder Name="RechargeRebate" />
+              <Image Name="get_d.png" />
+              <Image Name="get_n.png" />
+              <Image Name="get_p.png" />
+              <Image Name="rebateBG.png" />
+              <Image Name="rebateLogo.png" />
+            </Folder>
+            <Project Name="Node_Rebate.csd" Type="Node" />
+          </Folder>
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

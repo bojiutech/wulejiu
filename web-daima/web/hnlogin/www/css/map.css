@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{color:#333333;}
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,fieldset,lengend,button,input,textarea,form,th,td{margin:0;padding:0;}
+body,button,input,select,textarea{font:12px/1.5 SimSun,"\5b8b\4f53","Microsoft YaHei";}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+address,cite,dfn,em,var{font-style:normal;}
+code,kbd,pre,samp,tt{font-family:"Courier New",Courier,monospace;}
+small{font-size:12px;}
+ul,ol,li{list-style:none;}
+a{text-decoration:none; }a:link,a:visited,a:hover,a:active{text-decoration:none; outline:none;}
+abbr[title],acronym[title]{border-bottom:1px dotted;cursor:help;}
+q:before,q:after{content:'';}:focus{outline:0;}legend{color:#000;}
+fieldset,img,input{border:none;}button,input,select,textarea{font-size:100%;}
+table{border-collapse:collapse;border-spacing:0;}
+hr{border:none;height:1px;*color:#fff;}img{-ms-interpolation-mode:bicubic;}
+.clearfix:before,
+.clearfix:after {
+    content:"";
+    display:table;
+}
+.clearfix:after {clear:both;}
+/* For IE 6/7 (trigger hasLayout) */
+.clearfix {zoom:1;}
+.fl, 
+.flchild li{ float:left;}
+.fr,
+.frchild li{ float:right;}
+.fl,
+.fr,
+.flchild li,
+.frchild li{ display:inline;}
+
+body{background:#f7f7f7;}
+.page{width:720px; margin:0 auto; background:#fff; border:5px solid #efefef; margin-top:30px; padding:20px; height:auto !important; height:800px; min-height:800px;}
+.seatmap_logo{}
+.seatmap{background:url(../images/map/seatmap.jpg) 0 0 no-repeat; width:425px; height:20px; line-height:20px; margin-top:53px; text-align:right;}
+.seatmap span{margin-right:15px; color:#787777;}
+.title{background:url(../images/map/seatmap_title.jpg) 0 0 no-repeat; width:689px; height:32px; line-height:32px; padding-left:20px; font-size:14px; color:#fb5f01; margin:10px 0 0 10px;}
+.main{padding:30px 20px;}
+.main h2{ font-size:14px; color:#0033cc; font-weight:bold;}
+.main ul.map{margin:0 20px;}
+.main ul li{margin:15px 13px 0 0;}
+.main ul li a{color:#0033cc;}
+.main ul li a:hover{color:#f00; text-decoration:underline;}

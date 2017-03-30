@@ -1,0 +1,56 @@
+<Solution>
+  <PropertyGroup Name="CalculateBoard" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="platform">
+          <Folder Name="CalculateBoard">
+            <Folder Name="allBoard">
+              <Folder Name="allBoardRes">
+                <Image Name="a5.png" />
+                <Image Name="createroom_biaoti.png" />
+                <Image Name="main_touxiangk.png" />
+                <Image Name="main_touxiangk1.png" />
+                <Image Name="over_bj.jpg" />
+                <Image Name="over_fangzhu.png" />
+                <Image Name="over_fanhui.png" />
+                <Image Name="over_paijujieshu.png" />
+                <Image Name="over_shule.png" />
+                <Image Name="over_win.png" />
+                <Image Name="over_xuanyao.png" />
+                <Image Name="over_zongchengji.png" />
+                <Image Name="play_diban1.png" />
+                <Image Name="play_jinbi.png" />
+                <PlistInfo Name="Plist.csi" Type="Plist" />
+                <Image Name="set_ok.png" />
+                <Image Name="xiaoyingyiba.png" />
+              </Folder>
+              <Project Name="allBoard_landlord.csd" Type="Node" />
+              <Project Name="allBoard_NN4.csd" Type="Node" />
+            </Folder>
+            <Folder Name="singleBoard">
+              <Folder Name="singleBoardRes">
+                <Image Name="biaoti.png" />
+                <Image Name="coin_dakuang.png" />
+                <Image Name="coin_zkuang.png" />
+                <Image Name="hint_true.png" />
+                <Image Name="over_jieshuUI.png" />
+                <PlistInfo Name="Plist.csi" Type="Plist" />
+                <Image Name="shengli.png" />
+                <Image Name="shezhikuang.png" />
+                <Image Name="shibai.png" />
+                <Image Name="shop_jinbi.png" />
+                <Image Name="zhezhao.png" />
+                <Image Name="zi1.png" />
+                <Image Name="zi2.png" />
+                <Image Name="zi3.png" />
+              </Folder>
+              <Project Name="singleBoard_landlord.csd" Type="Node" />
+              <Project Name="singleBoard_NN4.csd" Type="Node" />
+            </Folder>
+          </Folder>
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

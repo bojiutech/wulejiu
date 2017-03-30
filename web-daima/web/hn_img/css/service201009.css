@@ -1,0 +1,69 @@
+@charset "gb2312";
+.h_3px{ height:3px; clear:both; clear:both; line-height:3px;}
+
+.cen960{ width:960px; margin:0 auto; font-family:Tahoma;}
+.ServCenBg{ background:url(http://hn_img/images/newIndex/newsec/servicecentopbg.jpg) top left no-repeat; padding-top:5px; overflow:hidden; padding-bottom:3px;}
+	.serviceLeft{ width:170px; float:left; position:relative; z-index:2;}
+	.serviceLeft .servH2{ height:32px; width:170px; position:relative; margin-top:5px;}
+	.serviceLeft .servH2 img{ float:left; margin-left:20px; padding-right:10px; padding-top:1px;}
+	.serviceLeft .servH2 h2 { background:url(http://hn_img/images/newIndex/newsec/servh2bg.gif); font-size:14px; height:32px; line-height:32px; height:32px; width:170px;position:absolute; left:0; top:0; font-family:Tahoma, Geneva;}
+	.serviceLeft .servH2 h2 a{ color:#3e0900;}
+	.serviceLeft .servH2Hov{ border-bottom:1px solid #f6f0e6; margin-top:0;}
+	.serviceLeft .servH2Hov h2{ font-size:14px; background:#fff; line-height:30px; height:30px; width:176px;position:absolute; left:0; top:0; border:1px solid #ffb506; border-right:none;  font-family:Tahoma, Geneva;}
+	.serviceLeft .servH2Hov h2 img{ padding-top:0;}
+	
+	.sevrviceList { background:url(http://hn_img/images/newIndex/newsec/sevrviceListbg.gif) left bottom no-repeat; float:left; width:170px;}
+	.sevrviceList li{ clear:both; width:170px; float:left; padding-top:2px; display:block; height:30px; font-size:14px; position:relative;}
+	.sevrviceList li a{ display:block;}
+	.sevrviceList li img{ float:left; margin:4px 10px 0 38px;}
+	.sevrviceList li span{line-height:30px; display:block;}
+	.sevrviceList .hov a{ background:#fff; display:block; width:172px; height:30px; top:0; left:4px; position:absolute; border:1px solid #ffb506; border-right:none; }
+	
+	.serviceRight{ width:782px; min-height:600px; float:right; background:#fff; border:1px solid #ffb506; position:relative; z-index:1;}
+	.serviceRight .mianbiaoxian{ background:url(http://hn_img/images/newIndex/newsec/bianbiaoxianbg.gif); height:27px; line-height:27px; padding:0 10px; width:750px; border-bottom:1px solid #e0dbca; margin:3px 0 0 10px; font-size:14px; font-family:Tahoma, Geneva;}
+	.serviceRight .Di{ width:784px; height:2px; line-height:2px; display:block; overflow:hidden; background:#e0e0e0; bottom:-3px; position:absolute; _display:none;}
+
+.serviceInfo{ margin-left:20px; width:700px; line-height:24px; clear:both; padding-bottom:30px;}
+.serviceInfo p{ padding-left:28px;}
+.serviceInfo h3{ line-height:36px;}
+.serviceInfo h3 img{ float:left;}
+.serviceInfo b{ font-weight:normal; font-size:12px; padding-left:10px;}
+.serviceInfo a{ color:#900; font-weight:bold; font-size:14px; text-decoration:underline; }
+.serviceRight .tishi{ background:#fffccb; border:1px dashed #f1cb95; overflow:hidden; clear:both; margin:10px 20px; padding:6px; color:#9d3434; line-height:18px;}
+
+.h_8pxDi{ width:960px; clear:both; height:8px; line-height:8px; overflow:hidden; margin:0 auto; border-bottom:1px solid #e9e9e9;}
+
+.color900{ color:#900; font-size:14px; font-weight:bold;}
+.color090{ color:#090;}
+.colorf93{ color:#f93; line-height:18px;}
+
+/*ÍøÕ¾µØÍ¼ yj20100919*/
+.blandbar{ clear:both; height:10px; overflow:hidden;}
+.total{ padding:10px 0;}
+.total span{ margin-right:8px;}
+	.webMapList{width:600px;  display:inline;}
+   	.webMapList dl{display:block;  margin-top:9px; margin-left:20px;}
+   	.webMapList dt{background:url(http://hn_img/images/newIndex/webMap_05.gif) no-repeat left 3px; height:20px; line-height:22px; font-size:14px; font-weight:bold;display:block; clear:both; padding-left:20px; }
+   	.webMapList dt a{text-decoration:none; text-decoration:underline;}
+   	.webMapList dd{display:block; clear:both; padding-bottom:10px; margin:10px 0px 0px 0px;}
+   	.webMapList dd ul{list-style:none; padding-left:24px; margin:0px;}
+   	.webMapList dd ul li{background:url(http://hn_img/images/newIndex/webMap_10.gif) no-repeat left center; padding-right:8px; float:left; white-space:nowrap; padding-left:15px; font-size:12px;  line-height:14px; height:25px; line-height:25px; }
+	.webMapList dd ul li a{ color:#555; font-weight:normal;} 
+	
+.hzmtArea{clear:both; padding-left:50px; margin-left:20px; height:120px; border-bottom:1px dotted #ccc;}
+.hzmtImg{float:left; width:300px; padding:10px;}
+.hzmtLink{ float:left; line-height:100px;}
+
+
+.tishi li{float:left; display:inline; margin:0 5px; white-space:nowrap; line-height:25px;}
+.tishi li a{ font-size:12px; font-weight:normal;}
+.tishi li a:hover{ text-decoration:none;}
+	 
+
+
+
+
+
+
+
+

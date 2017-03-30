@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">舞乐久</string>
+    <string name="app_tip"></string>
+    <string name="pay_result_callback_msg">支付结果</string>
+    <string name="success">支付成功</string>
+    <string name="fail">支付失败</string>
+    <string name="photo_file_provider_authority" translatable="false">com.redbird.chessroom.fileprovider</string>
+</resources>

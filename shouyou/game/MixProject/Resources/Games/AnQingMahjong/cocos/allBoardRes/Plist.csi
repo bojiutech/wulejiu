@@ -1,0 +1,23 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Plist" Type="Plist" ID="1485adb3-6600-4b0f-9b6c-cf9e04fbf8c3" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="platform/CalculateBoard/allBoard/allBoardRes/a5.png" />
+      <FilePathData Path="platform/CalculateBoard/allBoard/allBoardRes/createroom_biaoti.png" />
+      <FilePathData Path="platform/CalculateBoard/allBoard/allBoardRes/main_touxiangk.png" />
+      <FilePathData Path="platform/CalculateBoard/allBoard/allBoardRes/main_touxiangk1.png" />
+      <FilePathData Path="platform/CalculateBoard/allBoard/allBoardRes/over_fangzhu.png" />
+      <FilePathData Path="platform/CalculateBoard/allBoard/allBoardRes/over_fanhui.png" />
+      <FilePathData Path="platform/CalculateBoard/allBoard/allBoardRes/over_paijujieshu.png" />
+      <FilePathData Path="platform/CalculateBoard/allBoard/allBoardRes/over_shule.png" />
+      <FilePathData Path="platform/CalculateBoard/allBoard/allBoardRes/over_win.png" />
+      <FilePathData Path="platform/CalculateBoard/allBoard/allBoardRes/over_xuanyao.png" />
+      <FilePathData Path="platform/CalculateBoard/allBoard/allBoardRes/over_zongchengji.png" />
+      <FilePathData Path="platform/CalculateBoard/allBoard/allBoardRes/play_diban1.png" />
+      <FilePathData Path="platform/CalculateBoard/allBoard/allBoardRes/play_jinbi.png" />
+      <FilePathData Path="platform/CalculateBoard/allBoard/allBoardRes/set_ok.png" />
+      <FilePathData Path="platform/CalculateBoard/allBoard/allBoardRes/xiaoyingyiba.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

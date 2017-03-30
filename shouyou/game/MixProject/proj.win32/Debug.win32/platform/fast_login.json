@@ -1,0 +1,11 @@
+{
+	"USER_ACCT": [
+		{"username": "hn1017", "password": "123456"},
+		{"username": "hn1018", "password": "123456"},
+		{"username": "hn1019", "password": "123456"},
+		{"username": "hn1020", "password": "123456"},
+		{"username": "hn1021", "password": "123456"}],
+	"GAME_ID": 20100804,
+	"DESK_NO": 5,
+	"SEL_ROOM": 2
+}

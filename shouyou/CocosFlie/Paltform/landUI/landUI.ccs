@@ -1,0 +1,55 @@
+<Solution>
+  <PropertyGroup Name="landUI" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="platform">
+          <Folder Name="common">
+            <Image Name="close_btn.png" />
+            <Image Name="common_bg.png" />
+            <Image Name="dialog_bg.png" />
+            <Image Name="dialog_frame.png" />
+            <Image Name="edit_bg.png" />
+            <Image Name="frame.png" />
+            <Image Name="gray_btn.png" />
+            <Image Name="gree_btn.png" />
+            <Image Name="line.png" />
+            <Image Name="red_btn.png" />
+          </Folder>
+          <Folder Name="LoginorRegistUi">
+            <Folder Name="Login">
+              <Image Name="jizhumima.png" />
+              <Image Name="login_title.png" />
+              <Image Name="loginBtn1.png" />
+              <Image Name="loginBtn2.png" />
+              <Image Name="loginBtn3.png" />
+              <Image Name="loginBtn4.png" />
+              <Project Name="loginUI.csd" Type="Node" />
+              <Image Name="registBtn1.png" />
+              <Image Name="registBtn2.png" />
+              <Image Name="registBtn3.png" />
+              <Image Name="registBtn4.png" />
+            </Folder>
+            <Folder Name="regist">
+              <Image Name="agreement.png" />
+              <Image Name="chongzhi1.png" />
+              <Image Name="chongzhi2.png" />
+              <Image Name="chongzhi3.png" />
+              <Image Name="chongzhi4.png" />
+              <Image Name="regist_title.png" />
+              <Image Name="registBtn1.png" />
+              <Image Name="registBtn2.png" />
+              <Image Name="registBtn3.png" />
+              <Image Name="registBtn4.png" />
+              <Project Name="registUI.csd" Type="Node" />
+              <Image Name="showPass.png" />
+            </Folder>
+            <Image Name="gou.png" />
+            <Image Name="kuang.png" />
+            <Image Name="landBG.png" />
+          </Folder>
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

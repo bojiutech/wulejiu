@@ -1,0 +1,65 @@
+body{ background:#fff;}
+.top{ background:none; border:none;}
+.header-box{ height:33px; width:100%; border-bottom:1px solid #e8e8e8;background:#fdfdfd;}
+.con{ width:1000px; margin:0 auto;}
+.box1{ height:602px; background:url(../images/bindphone/bj1.jpg) top center no-repeat;}
+.box1-1{ height:602px; background:url(../images/bindphone/box1.jpg) top center no-repeat; position:relative;}
+.box1-1 .logo{ display:block; width:345px; height:78px; position:absolute; left:5px; top:0;}
+.box1-1 .get_code_btn{ display:block; width:164px; height:163px; background:url(../images/bindphone/code.png) no-repeat; position:absolute; left:430px; top:280px;}
+.box1-1 .get_code_btn:hover{ background-position:0 -164px; _background-position:0 -163px;}
+
+.box2{ height:744px; background:url(../images/bindphone/bj2.jpg) top center no-repeat;}
+.box2-1{ height:744px;background:url(../images/bindphone/box2.jpg) top center no-repeat; position:relative; }
+.b2-t{ color:#9c9a9a; font-size:14px; position:absolute; left:92px; top:23px; height:18px;}
+.box2-1 ul{ overflow:hidden; position:absolute; left:0; top:100px;}
+.box2-1 ul li{ float:left; display:block; width:156px; height:240px;  margin-left:40px;_ margin-left:20px; }
+.box2-1 ul li div{ width:156px; height:152px; background:url(../images/bindphone/g-bj.jpg) no-repeat; overflow:hidden; position:relative;}
+.box2-1 ul li div img{ position:absolute; left:0; top:0;}
+.box2-1 ul li a.g-name{ display:block; width:123px; height:34px; line-height:34px; background:url(../images/bindphone/g-btn.jpg) no-repeat; margin:0 auto; color:#fff; font-family:"Microsoft YaHei"; font-size:16px; text-align:center; margin-top:5px;}
+/****服务器******/
+.box-show{ width:540px; background:#fbfcf1; border:1px solid #fba64d; display:none;}
+.boxs-titie{ height:53px; background:#e05f0e url(../images/bindphone/img1.jpg) no-repeat;}
+.boxs-titie span{ height:53px; line-height:53px; color:#fff; font-size:16px; font-family:"Microsoft YaHei"; margin-left:50px;}
+.boxs-titie a{ display:block; height:31px; width:31px;  background:url(../images/bindphone/img2.jpg) no-repeat; margin:10px 10px 0 0; }
+.slist-wrap{ padding:10px 0 5px 0; height:215px; overflow:hidden;}
+.slist-wrap ul{ height:215px; overflow-y:auto;}
+.slist-wrap ul li{ float:left; display:inline;}
+.slist-wrap ul li a{ display:block; width:100px; height:30px; line-height:30px; color:#505050; margin-left:30px;}
+.slist-wrap ul li a:hover{ text-decoration:underline;}
+/****绑定手机******/
+.phone-show{ width:540px; background:#fbfcf1; border:1px solid #fba64d; font-size:14px; padding-bottom:20px;  display:none;}
+.phone-show ul{ height:90px; padding-top:50px; }
+.phone-show ul li{ float:left; display:inline; padding:0 0 0 40px; height:35px;}
+.phone-show ul li span{ display:block; height:30px; width:140px; line-height:30px; text-align:right;}
+.phone-show ul li input{ float:left; height:30px; width:200px; padding-left:3px; border:1px solid #fba64d;}
+.phone-show ul li a{ display:block; width:100px; height:30px; line-height:30px; color:#505050; float:left; margin-left:10px; text-align:center; background:#C39;}
+.phone-show ul li a:hover{ text-decoration:underline;}
+.phone-wrap p{ height:30px; color:#ff0000; text-align:center;}
+/****登录******/
+.login-show{ width:540px; background:#fbfcf1; border:1px solid #fba64d; font-size:14px; padding-bottom:20px; display:none;}
+.login-show ul{ height:90px; padding-top:50px; }
+.login-show ul li{ float:left; display:inline; padding:0 0 0 40px; height:35px;}
+.login-show ul li span{ display:block; height:30px; width:100px; line-height:30px; text-align:right;}
+.login-show ul li input{ float:left; height:30px; width:200px; padding-left:3px; border:1px solid #fba64d;}
+.login-show ul li p{ height:30px; line-height:30px; color:#ff0000; float:left; margin-left:10px; text-align:center; font-size:12px;}
+.login-show .login-btn{ height:30px; width:100px; margin:0 auto; color:#ff0000; text-align:center; cursor:pointer;}
+.login-show p{ height:30px; color:#ff0000; text-align:center;}
+/****温馨提示******/
+.wx-tip{ width:540px; background:#fbfcf1; border:1px solid #fba64d; font-size:14px; padding-bottom:20px; font-family:"Microsoft YaHei";  display:none;}
+.wx-wrap{background: url(../images/bindphone/kx.jpg) 100px 40px no-repeat; height:215px;}
+.wx-tip ul{ height:60px; padding-top:45px; }
+.wx-tip ul li{ float:left; display:inline; padding:0 0 0 145px; height:35px; font-size:22px; color:#e05f0e;  }
+.wx-tip p{ height:35px; color:#ff0000; text-align:center;}
+.wx-tip p a.login-btn{ display:block; height:35px; line-height:35px; width:171px; color:#ff0000; background:url(../images/bindphone/btn3.jpg) no-repeat; color:#ffffff; font-size:18px; float:left; margin-left:145px; _margin-left:72px;}
+.wx-tip p a:hover{ background-position:0 -36px;}
+/****领取成功******/
+.success-tip{ width:540px; background:#fbfcf1; border:1px solid #fba64d; font-size:14px; padding-bottom:20px; font-family:"Microsoft YaHei"; display:none; }
+.success-wrap{background: url(../images/bindphone/d.jpg) 75px 37px no-repeat; height:215px;}
+.success-tip ul{ height:120px; padding-top:38px; }
+.success-tip ul li{ float:left; display:inline; padding:0 0 0 135px; height:25px; width:330px; line-height:25px; margin-bottom:15px; clear:both; }
+.success-tip ul li i{ font-size:22px; color:#e05f0e; font-style:normal;}
+.success-tip ul li span{height:30px; line-height:30px;}
+.success-tip .login-btn{ height:30px; width:100px; margin:0 auto; color:#ff0000; text-align:center; cursor:pointer;}
+.success-tip p{ height:30px; color:#ff0000; text-align:center;}
+.success-tip p a{display:block; height:36px; line-height:36px; width:115px; color:#ff0000; background:url(../images/bindphone/btn2.jpg) no-repeat; color:#ffffff; font-size:18px; float:left; margin-left:145px; _margin-left:72px;}
+.success-tip p a:hover{ background-position:0 -37px;}

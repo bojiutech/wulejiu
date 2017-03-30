@@ -1,0 +1,3 @@
+.validateBg{ width:100%; position:absolute; z-index:10000; left:0; top:0; background:#000; height:1000px; filter:Alpha(Opacity=50); opacity:0.5;}
+.validateInfo{ width:100%; position:absolute; z-index:10001; left:0;}
+.validateIframe{border:none;width:710px; height:430px; margin:0 auto; display:block;}

@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Games">
+      <UniqueIdentifier>{7a89e08a-1a34-4365-8e9a-7819ca4ccae2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Games\AnQingMahjong">
+      <UniqueIdentifier>{e83730c1-62da-4e43-8241-eea92c6d3192}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Games\AnQingMahjong\GameMessage">
+      <UniqueIdentifier>{22eb0b15-ecc4-4470-aa51-dfb4feb258ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Games\AnQingMahjong\GameTable">
+      <UniqueIdentifier>{1505eeed-9cc9-401d-98a3-497472048875}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Games\Cherry97">
+      <UniqueIdentifier>{919d0420-9e94-49e2-a790-9b4992fdb5b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Games\Cherry97\GameMessage">
+      <UniqueIdentifier>{ba7381b7-e5bd-49f8-9260-2258ab74afbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Games\Cherry97\GameTable">
+      <UniqueIdentifier>{0c672a1d-417b-4d84-909b-d94878094c83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Games\GoBang">
+      <UniqueIdentifier>{a447d19a-fe0a-4320-a175-b97674150f88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Games\GoBang\GameMessage">
+      <UniqueIdentifier>{9951157e-1754-43fd-a4d8-3b9fb5aa0a12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Games\GoBang\GameTable">
+      <UniqueIdentifier>{c9727757-66d5-4940-8774-ee5a6a17dba2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AnQingMahjong\Classes\GameTable\AQMJ_CalculateBoardAll.cpp">
+      <Filter>src\Games\AnQingMahjong\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AnQingMahjong\Classes\GameTable\AQMJ_Card.cpp">
+      <Filter>src\Games\AnQingMahjong\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AnQingMahjong\Classes\GameTable\AQMJ_CardPool.cpp">
+      <Filter>src\Games\AnQingMahjong\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AnQingMahjong\Classes\GameTable\AQMJ_ChatDlg.cpp">
+      <Filter>src\Games\AnQingMahjong\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AnQingMahjong\Classes\GameTable\AQMJ_GameTableLogic.cpp">
+      <Filter>src\Games\AnQingMahjong\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AnQingMahjong\Classes\GameTable\AQMJ_GameTableUI.cpp">
+      <Filter>src\Games\AnQingMahjong\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AnQingMahjong\Classes\GameTable\AQMJ_PoolAction.cpp">
+      <Filter>src\Games\AnQingMahjong\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AnQingMahjong\Classes\GameTable\AQMJ_ResourceLoader.cpp">
+      <Filter>src\Games\AnQingMahjong\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Cherry97\Classes\GameTable\Cherry97GameAudio.cpp">
+      <Filter>src\Games\Cherry97\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Cherry97\Classes\GameTable\Cherry97GameAward.cpp">
+      <Filter>src\Games\Cherry97\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Cherry97\Classes\GameTable\Cherry97GameBet.cpp">
+      <Filter>src\Games\Cherry97\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Cherry97\Classes\GameTable\Cherry97GameCell.cpp">
+      <Filter>src\Games\Cherry97\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Cherry97\Classes\GameTable\Cherry97GameCheckAward.cpp">
+      <Filter>src\Games\Cherry97\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Cherry97\Classes\GameTable\Cherry97GameCheckAwardNext.cpp">
+      <Filter>src\Games\Cherry97\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Cherry97\Classes\GameTable\Cherry97GameTableLogic.cpp">
+      <Filter>src\Games\Cherry97\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Cherry97\Classes\GameTable\Cherry97GameTableUI.cpp">
+      <Filter>src\Games\Cherry97\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GoBang\Classes\GameTable\GoBangBoard.cpp">
+      <Filter>src\Games\GoBang\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GoBang\Classes\GameTable\GoBangChessEncapsulation.cpp">
+      <Filter>src\Games\GoBang\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GoBang\Classes\GameTable\GoBangGameOverUI.cpp">
+      <Filter>src\Games\GoBang\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GoBang\Classes\GameTable\GoBangPlayersInfo.cpp">
+      <Filter>src\Games\GoBang\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GoBang\Classes\GameTable\GoBangSoundMgr.cpp">
+      <Filter>src\Games\GoBang\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GoBang\Classes\GameTable\GoBangTableLogic.cpp">
+      <Filter>src\Games\GoBang\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GoBang\Classes\GameTable\GoBangTableUI.cpp">
+      <Filter>src\Games\GoBang\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GoBang\Classes\GameTable\GoBangTimer.cpp">
+      <Filter>src\Games\GoBang\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GoBang\Classes\GameTable\GoBangTimeSet.cpp">
+      <Filter>src\Games\GoBang\GameTable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Cherry97\Classes\GameTable\Cherry97GameShare.cpp">
+      <Filter>src\Games\Cherry97\GameTable</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AnQingMahjong\Classes\GameMessage\AQMJ_MessageHead.h">
+      <Filter>src\Games\AnQingMahjong\GameMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AnQingMahjong\Classes\GameTable\AQMJ_CalculateBoardAll.h">
+      <Filter>src\Games\AnQingMahjong\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AnQingMahjong\Classes\GameTable\AQMJ_Card.h">
+      <Filter>src\Games\AnQingMahjong\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AnQingMahjong\Classes\GameTable\AQMJ_CardPool.h">
+      <Filter>src\Games\AnQingMahjong\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AnQingMahjong\Classes\GameTable\AQMJ_ChatDlg.h">
+      <Filter>src\Games\AnQingMahjong\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AnQingMahjong\Classes\GameTable\AQMJ_GameTableLogic.h">
+      <Filter>src\Games\AnQingMahjong\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AnQingMahjong\Classes\GameTable\AQMJ_GameTableUI.h">
+      <Filter>src\Games\AnQingMahjong\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AnQingMahjong\Classes\GameTable\AQMJ_GameTableUICallback.h">
+      <Filter>src\Games\AnQingMahjong\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AnQingMahjong\Classes\GameTable\AQMJ_PoolAction.h">
+      <Filter>src\Games\AnQingMahjong\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AnQingMahjong\Classes\GameTable\AQMJ_ResourceLoader.h">
+      <Filter>src\Games\AnQingMahjong\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Cherry97\Classes\GameMessage\Cherry97MessageHead.h">
+      <Filter>src\Games\Cherry97\GameMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Cherry97\Classes\GameTable\Cherry97GameAudio.h">
+      <Filter>src\Games\Cherry97\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Cherry97\Classes\GameTable\Cherry97GameAward.h">
+      <Filter>src\Games\Cherry97\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Cherry97\Classes\GameTable\Cherry97GameBet.h">
+      <Filter>src\Games\Cherry97\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Cherry97\Classes\GameTable\Cherry97GameCell.h">
+      <Filter>src\Games\Cherry97\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Cherry97\Classes\GameTable\Cherry97GameCheckAward.h">
+      <Filter>src\Games\Cherry97\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Cherry97\Classes\GameTable\Cherry97GameCheckAwardNext.h">
+      <Filter>src\Games\Cherry97\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Cherry97\Classes\GameTable\Cherry97GameTableLogic.h">
+      <Filter>src\Games\Cherry97\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Cherry97\Classes\GameTable\Cherry97GameTableUI.h">
+      <Filter>src\Games\Cherry97\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Cherry97\Classes\GameTable\Cherry97GameTableUICallback.h">
+      <Filter>src\Games\Cherry97\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GoBang\Classes\GameMessage\GoBangMessage.h">
+      <Filter>src\Games\GoBang\GameMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GoBang\Classes\GameTable\GoBangBoard.h">
+      <Filter>src\Games\GoBang\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GoBang\Classes\GameTable\GoBangChessEncapsulation.h">
+      <Filter>src\Games\GoBang\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GoBang\Classes\GameTable\GoBangConstDefinition.h">
+      <Filter>src\Games\GoBang\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GoBang\Classes\GameTable\GoBangGameOverUI.h">
+      <Filter>src\Games\GoBang\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GoBang\Classes\GameTable\GoBangPlayersInfo.h">
+      <Filter>src\Games\GoBang\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GoBang\Classes\GameTable\GoBangSoundMgr.h">
+      <Filter>src\Games\GoBang\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GoBang\Classes\GameTable\GoBangTableLogic.h">
+      <Filter>src\Games\GoBang\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GoBang\Classes\GameTable\GoBangTableUI.h">
+      <Filter>src\Games\GoBang\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GoBang\Classes\GameTable\GoBangTableUICallback.h">
+      <Filter>src\Games\GoBang\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GoBang\Classes\GameTable\GoBangTimer.h">
+      <Filter>src\Games\GoBang\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GoBang\Classes\GameTable\GoBangTimeSet.h">
+      <Filter>src\Games\GoBang\GameTable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Cherry97\Classes\GameTable\Cherry97GameShare.h">
+      <Filter>src\Games\Cherry97\GameTable</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

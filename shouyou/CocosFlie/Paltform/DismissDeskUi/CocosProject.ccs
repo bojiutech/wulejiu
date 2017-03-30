@@ -1,0 +1,43 @@
+<Solution>
+  <PropertyGroup Name="CocosProject" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="platform">
+          <Folder Name="common">
+            <Image Name="close_btn.png" />
+            <Image Name="common_bg.png" />
+            <Image Name="dialog_bg.png" />
+            <Image Name="dialog_frame.png" />
+            <Image Name="edit_bg.png" />
+            <Image Name="frame.png" />
+            <Image Name="gray_btn.png" />
+            <Image Name="gree_btn.png" />
+            <Image Name="line.png" />
+            <Image Name="red_btn.png" />
+          </Folder>
+          <Folder Name="dismissDesk">
+            <Folder Name="dismissDeskPromptRes">
+              <Image Name="coin_tishi.png" />
+              <Image Name="hint_tongyi.png" />
+              <PlistInfo Name="Plist.csi" Type="Plist" />
+              <Image Name="set_bj1.png" />
+              <Image Name="set_tishi.png" />
+            </Folder>
+            <Folder Name="dismissDeskRes">
+              <Image Name="hitshuzi.png" />
+              <PlistInfo Name="Plist.csi" Type="Plist" />
+              <Image Name="set_jujue.png" />
+              <Image Name="set_shenqing.png" />
+              <Image Name="set_tongyi.png" />
+              <Image Name="set_zhong.png" />
+              <Image Name="tip_kuang.png" />
+            </Folder>
+            <Project Name="dismissDesk.csd" Type="Node" />
+            <Project Name="dismissDeskPrompt.csd" Type="Node" />
+          </Folder>
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

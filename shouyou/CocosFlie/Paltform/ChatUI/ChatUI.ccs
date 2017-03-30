@@ -1,0 +1,93 @@
+<Solution>
+  <PropertyGroup Name="ChatUI" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="platform">
+          <Folder Name="Chat">
+            <Folder Name="chatRes">
+              <Image Name="background_ultimate.png" />
+              <Image Name="chat_bt_0.png" />
+              <Image Name="chat_bt_1.png" />
+              <Image Name="chat_bt_2.png" />
+              <Image Name="chat_bt_send.png" />
+              <Image Name="chatImage.png" />
+              <Image Name="im1.png" />
+              <Image Name="im10.png" />
+              <Image Name="im11.png" />
+              <Image Name="im12.png" />
+              <Image Name="im13.png" />
+              <Image Name="im14.png" />
+              <Image Name="im15.png" />
+              <Image Name="im16.png" />
+              <Image Name="im17.png" />
+              <Image Name="im18.png" />
+              <Image Name="im19.png" />
+              <Image Name="im2.png" />
+              <Image Name="im20.png" />
+              <Image Name="im21.png" />
+              <Image Name="im22.png" />
+              <Image Name="im23.png" />
+              <Image Name="im24.png" />
+              <Image Name="im25.png" />
+              <Image Name="im26.png" />
+              <Image Name="im27.png" />
+              <Image Name="im28.png" />
+              <Image Name="im29.png" />
+              <Image Name="im3.png" />
+              <Image Name="im30.png" />
+              <Image Name="im31.png" />
+              <Image Name="im32.png" />
+              <Image Name="im33.png" />
+              <Image Name="im34.png" />
+              <Image Name="im35.png" />
+              <Image Name="im36.png" />
+              <Image Name="im37.png" />
+              <Image Name="im38.png" />
+              <Image Name="im39.png" />
+              <Image Name="im4.png" />
+              <Image Name="im40.png" />
+              <Image Name="im41.png" />
+              <Image Name="im42.png" />
+              <Image Name="im43.png" />
+              <Image Name="im44.png" />
+              <Image Name="im45.png" />
+              <Image Name="im46.png" />
+              <Image Name="im47.png" />
+              <Image Name="im48.png" />
+              <Image Name="im49.png" />
+              <Image Name="im5.png" />
+              <Image Name="im50.png" />
+              <Image Name="im51.png" />
+              <Image Name="im52.png" />
+              <Image Name="im53.png" />
+              <Image Name="im54.png" />
+              <Image Name="im55.png" />
+              <Image Name="im56.png" />
+              <Image Name="im57.png" />
+              <Image Name="im58.png" />
+              <Image Name="im59.png" />
+              <Image Name="im6.png" />
+              <Image Name="im60.png" />
+              <Image Name="im61.png" />
+              <Image Name="im62.png" />
+              <Image Name="im63.png" />
+              <Image Name="im64.png" />
+              <Image Name="im65.png" />
+              <Image Name="im66.png" />
+              <Image Name="im67.png" />
+              <Image Name="im68.png" />
+              <Image Name="im7.png" />
+              <Image Name="im8.png" />
+              <Image Name="im9.png" />
+              <Image Name="list.png" />
+              <Image Name="message.png" />
+              <Image Name="voice.png" />
+            </Folder>
+            <Project Name="chat.csd" Type="Node" />
+          </Folder>
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

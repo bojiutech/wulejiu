@@ -1,0 +1,12 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Plist" Type="Plist" ID="d6c977d3-dbd4-4674-acf4-1a1d036fe368" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="platform/dismissDesk/dismissDeskPromptRes/coin_tishi.png" />
+      <FilePathData Path="platform/dismissDesk/dismissDeskPromptRes/hint_tongyi.png" />
+      <FilePathData Path="platform/dismissDesk/dismissDeskPromptRes/set_bj1.png" />
+      <FilePathData Path="platform/dismissDesk/dismissDeskPromptRes/set_tishi.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

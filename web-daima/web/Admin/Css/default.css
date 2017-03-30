@@ -1,0 +1,299 @@
+/*a:visited{ color:#775522; text-decoration: none; font-family: 宋体; font-size:9pt;}
+a:active{color:#5f8ac5; text-decoration: none; font-family: 宋体; font-size:9pt;}
+a:hover{ color:#ff0000; text-decoration:underline;font-family: 宋体; font-size:9pt;}
+a:link{ color:#775522; text-decoration: none; font-family: 宋体; font-size:9pt;}*/
+
+.vflink:a:visited{ color:#5f8ac5; text-decoration: none; font-family: verdana; font-size:9pt;}
+.vflink:a:active{color:#5f8ac5; text-decoration: none; font-family: verdana; font-size:9pt;}
+.vflink:a:hover{ color:#555555; text-decoration: none; font-family: verdana; font-size:9pt;}
+.vflink:a:link{ color:#000000; text-decoration: none; font-family: verdana; font-size:9pt;}
+
+.whitelink:a:link{ color:#ffffff; text-decoration: none; font-family: 宋体; font-size:9pt;}
+.whitelink:a:visited{ color:#ffffff; text-decoration: none; font-family: 宋体; font-size:9pt;}
+.whitelink:a:hover{ color:#ffffff; text-decoration: underline; font-family: 宋体; font-size:9pt;}
+.whitelink:a:active{color:#ffffff; text-decoration: none; font-family: 宋体; font-size:9pt;}
+
+.vfwhitelink:a:link{ color:#ffffff; text-decoration: none; font-family: verdana; font-size:9pt;}
+.vfwhitelink:a:visited{ color:#ffffff; text-decoration: none; font-family: verdana; font-size:9pt;}
+.vfwhitelink:a:hover{ color:#ffffff; text-decoration: underline; font-family: verdana; font-size:9pt;}
+.vfwhitelink:a:active{color:#ffffff; text-decoration: none; font-family: verdana; font-size:9pt;}
+
+.blacklink:a:link{ color:#000000; text-decoration: none}
+.blacklink:a:visited{ color:#000000; text-decoration: none}
+.blacklink:a:hover{ color:#ff0000; text-decoration: none}
+.blacklink:a:active{color:#5f8ac5; text-decoration: none}
+
+.smallelink:a:visited{ color:#5f8ac5; text-decoration: none; font-family:verdana; font-size:8pt;}
+.smallelink:a:active{color:#5f8ac5; text-decoration: none; font-family:verdana; font-size:8pt;}
+.smallelink:a:hover{ color:#555555; text-decoration: none; font-family:verdana; font-size:8pt;}
+.smallelink:a:link{ color:#5f8ac5; text-decoration: none; font-family:verdana; font-size:8pt;}
+
+.smallvgraylink:a:visited{ color:#555555; text-decoration: none; font-family:verdana; font-size:8pt;}
+.smallvgraylink:a:active{color:#5f8ac5; text-decoration: none; font-family:verdana; font-size:8pt;}
+.smallvgraylink:a:hover{ color:#555555; text-decoration: underline; font-family:verdana; font-size:8pt;}
+.smallvgraylink:a:link{ color:#bababa; text-decoration: none; font-family:verdana; font-size:8pt;}
+
+
+body {
+	font-family: 宋体;
+	font-size: 9pt;
+	scrollbar-highlight-color: #f2c2d2; 
+	scrollbar-shadow-color: #f2c2d2;
+	scrollbar-3dlight-color: #f2c2d2;
+	scrollbar-track-color: #eb748b;
+	scrollbar-arrow-color: #ffffff;
+	scrollbar-face-color: #c23a58;
+	scrollbar-darkshadow-color: #f2c2d2
+}
+
+div{font-family: 宋体; font-size: 9pt}
+form{font-family: 宋体; font-size: 9pt}
+option{font-family: 宋体; font-size: 9pt}
+
+p{font-family: 宋体; font-size: 9pt}
+td{font-family: 宋体; font-size: 9pt; line-height:150%}
+br{font-family: 宋体; font-size: 9pt}
+
+input{
+	font-size: 9pt;
+	color:#000000;
+	
+
+}
+
+
+textarea {
+	border-width: 1;
+	border-color: #cccccc;
+	background-color: #ffffff;
+	font-family: 宋体;
+	font-size: 9pt;
+	font-style: bold;
+}
+
+select {border-width: 1;
+	border-color: #000000;
+	background-color: #ffffff;
+	font-family: 宋体;
+	font-size: 9pt;
+	font-style: bold;
+}
+li { color: #bababa; font-family:宋体; font-size:9pt }
+hr {color: #000000; }
+blockquote {font-family:verdana; font-size:9pt}
+
+tr.h	{background-color: #f4f4f4}
+
+
+
+.input_line{
+	font-size: 9pt;
+	font-family: verdana;
+	color:#000000;
+	height: 19px;
+	background-color: #ffffff;
+
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-width: 1px;
+
+	padding-top: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-bottom: 1px;
+
+	border-left-color: #f2f2f2;
+	border-bottom-color: #cccccc;
+	border-top-color: #f2f2f2;
+	border-right-color: #cccccc;
+}
+
+.columninput{
+	font-size: 9pt;
+	font-family: 宋体;
+	color:#777777;
+	height: 16px;
+	width: 80px;
+	background-color: #ffffff;
+
+	border-top-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+
+	padding-top: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-bottom: 1px;
+
+	border-left-color: #f2f2f2;
+	border-bottom-color: #cccccc;
+	border-top-color: #f2f2f2;
+	border-right-color: #cccccc;
+}
+
+.nolineinput{
+	font-size: 9pt;
+	font-family: verdana;
+	color:#666666;
+	height: 20px;
+	background-color: #ffffff;
+
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+
+	padding-top: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-bottom: 1px;
+
+	border-left-color: #f2f2f2;
+	border-bottom-color: #cccccc;
+	border-top-color: #f2f2f2;
+	border-right-color: #cccccc;
+}
+
+.input555 {
+	border-right: #333333 1px dashed;
+	border-top: #333333 1px dashed;
+	font-size: 9pt;
+	border-left: #333333 1px dashed;
+	color: #00215a;
+	border-bottom: #333333 1px dashed;
+	height: 16px;
+	background-color: #daecff;
+}
+
+.gface { font-family:verdana; font-size:9pt; }
+.aface { font-family:arial; font-size:9pt; }
+.gray {font-size:9pt; font-family:宋体; color:#bababa; }
+.vgray {font-size:9pt; font-family:verdana; color:#bababa; }
+.agray {font-size:9pt; font-family:arial; color:#bababa; }
+.vsmallgray {font-size:8pt; font-family:verdana; color:#bababa; }
+.white { font-family: 宋体; font-size: 9pt; color:#ffffff }
+.vfwhite { font-family: verdana; font-size: 9pt; color:#ffffff }
+.big { font-family: 宋体; font-size: 11pt; }
+.smalle {
+	font-family: verdana;
+	font-size: 8pt;
+}
+.alert { font-family: verdana; font-size: 9pt; color:#0000ff }
+.blue001{ color:#5f8ac5}
+.vsblue{ font-size:8pt; font-family:verdana; color:#5f8ac5}
+.vblue{ font-size:9pt; font-family:verdana; color:#5f8ac5}
+.pink {color:#f49bba }
+
+
+.shadow001 {font-size: 9pt; filter: dropshadow(color=#c3c3c3,offx=1,offy=1,positive=1); color: #5f8ac5; font-family: "宋体"}
+.shadow002 {font-size: 9pt; filter: dropshadow(color=#555555,offx=1,offy=1,positive=1); color: #5f8ac5; font-family: "宋体"}
+.shadow003 {font-size: 9pt; filter: dropshadow(color=#c3c3c3,offx=1,offy=1,positive=1); color: #000000; font-family: "宋体"}
+.dwcopy{font-size: 9pt;
+	filter: dropshadow(color=#000000, offx=1, offy=1,positive=1);
+	color:#ffffff;
+	font-family: "宋体"
+}
+.dw {  font-size: 9pt; filter: dropshadow(color=#d6e3ff, offx=1, offy=1, positive=1); font-family: "宋体"}
+
+.td001 {  font-size: 9pt; background-color: #bad2f0}
+
+.tr000 {  font-size: 9pt; background-color: #5f8ac5} 
+.tr001 {  font-size: 9pt; background-color: #bad2f0} 
+.tr002 {  font-size: 9pt; background-color: #ffffff}
+
+
+.table001 {  font-size: 9pt; background-color: #5f8ac5; width:750}
+.table002 {  font-size: 9pt; background-color: #ffffff; width:750} //标准表格
+.table003 {  font-size: 9pt; background-color: #55768e}
+.table004 {  font-size: 9pt; background-color: #f1f1f1; width:750}
+.table005 {  font-size: 9pt; background-color: #fafafa; width:750}
+.tablesmall {  font-size: 9pt; background-color: #ffffff; width=100%}
+.graytable {  font-size: 9pt; background-color: #bababa;}
+
+
+.click{ font-size:8pt;
+	font-family:verdana;
+	color:#bababa
+}
+.time { font-size:8pt;
+	font-family:verdana;
+	color:#bababa
+}
+
+
+.bbimage {
+	border-bottom: #000000 1px solid;
+	border-left: #000000 1px solid;
+	border-right: #000000 1px solid;
+	border-top: #000000 1px solid;
+}
+
+
+
+
+a.ablack:visited{ color: black; text-decoration: none;}
+a.ablack:active{color: black; text-decoration: none;}
+a.ablack:hover{ color: black; text-decoration: underline;}
+a.ablack:link{ color: black; text-decoration: none;}
+
+a.ablue:visited{ color: blue; text-decoration: none;}
+a.ablue:active{color: blue; text-decoration: none;}
+a.ablue:hover{ color: blue; text-decoration: underline;}
+a.ablue:link{ color: blue; text-decoration: none;}
+
+a.abrown:visited{ color: brown; text-decoration: none;}
+a.abrown:active{color: brown; text-decoration: none;}
+a.abrown:hover{ color: brown; text-decoration: underline;}
+a.abrown:link{ color: brown; text-decoration: none;}
+
+a.agreen:visited{ color: green; text-decoration: none;}
+a.agreen:active{color: green; text-decoration: none;}
+a.agreen:hover{ color: green; text-decoration: underline;}
+a.agreen:link{ color: green; text-decoration: none;}
+
+a.agrey:visited{ color: #cccccc; text-decoration: none;}
+a.agrey:active{color: #cccccc; text-decoration: none;}
+a.agrey:hover{ color: #cccccc; text-decoration: underline;}
+a.agrey:link{ color: #cccccc; text-decoration: none;}
+
+a.amagenta:visited{ color: magenta; text-decoration: none;}
+a.amagenta:active{color: magenta; text-decoration: none;}
+a.amagenta:hover{ color: magenta; text-decoration: underline;}
+a.amagenta:link{ color: magenta; text-decoration: none;}
+
+a.aorange:visited{ color: orange; text-decoration: none;}
+a.aorange:active{color: orange; text-decoration: none;}
+a.aorange:hover{ color: orange; text-decoration: underline;}
+a.aorange:link{ color: orange; text-decoration: none;}
+
+a.apurple:visited{ color: purple; text-decoration: none;}
+a.apurple:active{color: purple; text-decoration: none;}
+a.apurple:hover{ color: purple; text-decoration: underline;}
+a.apurple:link{ color: purple; text-decoration: none;}
+
+a.ared:visited{ color: red; text-decoration: none;}
+a.ared:active{color: red; text-decoration: none;}
+a.ared:hover{ color: red; text-decoration: underline;}
+a.ared:link{ color: red; text-decoration: none;}
+
+a.awhite:visited{ color: white; text-decoration: none;}
+a.awhite:active{color: white; text-decoration: none;}
+a.awhite:hover{ color: white; text-decoration: underline;}
+a.awhite:link{ color: white; text-decoration: none;}
+
+a.ayellow:visited{ color: yellow; text-decoration: none;}
+a.ayellow:active{color: yellow; text-decoration: none;}
+a.ayellow:hover{ color: yellow; text-decoration: underline;}
+a.ayellow:link{ color: yellow; text-decoration: none;}
+
+.headertdstyle {
+	background: buttonface;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-top: 2px solid threedhighlight;
+	border-left: 2px solid threedhighlight;
+	border-right: 2px solid threedshadow;
+	border-bottom: 2px solid threedshadow;
+}

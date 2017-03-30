@@ -1,0 +1,21 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Plist" Type="Plist" ID="6b02032c-f415-4e1b-9ca2-7261c1890a25" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="platform/CalculateBoard/singleBoard/singleBoardRes/biaoti.png" />
+      <FilePathData Path="platform/CalculateBoard/singleBoard/singleBoardRes/coin_dakuang.png" />
+      <FilePathData Path="platform/CalculateBoard/singleBoard/singleBoardRes/coin_zkuang.png" />
+      <FilePathData Path="platform/CalculateBoard/singleBoard/singleBoardRes/hint_true.png" />
+      <FilePathData Path="platform/CalculateBoard/singleBoard/singleBoardRes/over_jieshuUI.png" />
+      <FilePathData Path="platform/CalculateBoard/singleBoard/singleBoardRes/shengli.png" />
+      <FilePathData Path="platform/CalculateBoard/singleBoard/singleBoardRes/shezhikuang.png" />
+      <FilePathData Path="platform/CalculateBoard/singleBoard/singleBoardRes/shibai.png" />
+      <FilePathData Path="platform/CalculateBoard/singleBoard/singleBoardRes/shop_jinbi.png" />
+      <FilePathData Path="platform/CalculateBoard/singleBoard/singleBoardRes/zhezhao.png" />
+      <FilePathData Path="platform/CalculateBoard/singleBoard/singleBoardRes/zi1.png" />
+      <FilePathData Path="platform/CalculateBoard/singleBoard/singleBoardRes/zi2.png" />
+      <FilePathData Path="platform/CalculateBoard/singleBoard/singleBoardRes/zi3.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

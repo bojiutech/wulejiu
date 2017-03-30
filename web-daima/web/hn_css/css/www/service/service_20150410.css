@@ -1,0 +1,114 @@
+@charset "gb2312";
+.jj_nav_hot{ height:398px;}
+.jj_hot_img{ position:absolute; height:398px; width:100%; top:0; left:0; z-index:1;}
+.jj_hot_img .hot_img{ position:absolute; height:398px; width:100%; top:0; left:0;}
+.jj_hot_img .hot_img .hot_img_len{ width:100%; height:398px; }
+.jj_hot_img .hot_img .hot_img_len .min_max_adap{ height:398px; }
+.jj_hot_img .hot_img .hot_img_len1{background:#0082cc url(../../../../hn_img/help/service/service_top_bg.jpg) center top; }
+.jj_hot_img .hot_img .hot_img_len1 .min_max_adap{background:url(../../../../hn_img/help/service/service_top_bg2.jpg) left top; }
+.hot_img_nav{ position:absolute; top:458px; left:537px;}
+.hot_img_nav li{ width:29px; height:13px; background:url(../../../../hn_img/www/hn/hot_nav_bg.png) right top; _background:url(../../../../hn_img/www/hn/hot_nav_bg.gif) right top; overflow:hidden; display:inline; float:left; margin:0 10px; cursor:pointer;}
+.hot_img_nav li.hov{ background-position:left top;  cursor:default; }
+.hot_img_nav li{ float:left;}
+.tips_word{clear:both; padding-left:62px; font-size:14px; color:#a0a0a0;}
+.bottom_lip{ height:12px; overflow:hidden; width:100%; margin-top:20px;}
+.bottom_lip img{ width:100%;}
+/*service*/
+.service_title{ height:60px; line-height:48px; font-size:22px; padding:40px 0 20px 0; position:relative;}
+.service_title img{ float:left; padding-right:10px;}
+.service_title span{ float:left;}
+.service_title .more{ position:absolute; right:20px; top:40px;  font-size:14px; font-weight:normal; color:#3b8ede;}
+.service_search{ position:absolute; background:#FFFFFF; width:600px; height:54px; top:238px; left:310px; box-shadow:0 0 10px rgba(0,0,0,0.2)}
+.service_search .inp{ z-index:2; position:absolute; height:54px; line-height:54px; border:none; padding:0 10px; background:#FFFFFF; width:526px; }
+.service_search .btn{ z-index:2; background-color:#f09d46; position:absolute; height:54px; width:54px; left:546px; border:none; background-image:url(../../../../hn_img/help/service/service_but_bg.png); cursor:pointer;}
+.service_search .btn:hover{ background-position:left -54px;}
+.service_search .btn:active{ background-position:left -108px;}
+.service_search .search_auto{ border-top:1px solid #f0f0f0; position:absolute; top:54px; width:546px; left:0; background:#FFF; line-height:24px; color:#3B3B3B; box-shadow:0 0 10px rgba(0,0,0,0.5); z-zindex:1;}
+.service_search .search_auto li{ padding:6px 10px; color:#999;}
+.service_search .search_auto .hover{ background:#EBEBEB; color:#3B3B3B;}
+.service_steps{ display:block; width:100%; margin-left:50px;}
+.service_steps li{ float:left; width:24.8%; margin-bottom:10px;height:160px;}
+.service_steps li span{ width:89px; height:89px; margin:10px 16px 50px 0; float:left;}
+.service_steps li span a{background:url(../../../../hn_img/help/service/service_left_icon.gif) no-repeat; width:89px; height:89px; display:block;}
+.service_steps li dt{ font-size:16px; font-family:"Microsoft YaHei"; line-height:32px;} 
+.service_steps li dt a{ color:#5c656c; font-weight:bold; font-size:16px;}
+.service_steps li dd{ font-size:14px; line-height:18px; padding:3px 0;}
+.service_steps li dd a{ color:#5c656c;} 
+.service_steps li a:hover{ color:#0d71b1;} 
+.service_steps li span.a1 a{background-position:0 0;}
+.service_steps li span.a2 a{background-position:-89px 0;}
+.service_steps li span.a3 a{background-position:-178px 0;}
+.service_steps li span.a4 a{background-position:-267px 0;}
+.service_steps li span.a5 a{background-position:-356px 0;}
+.service_steps li span.a6 a{background-position:-445px 0;}
+.service_steps li span.a7 a{background-position:-534px 0;}
+.service_steps li span.a8 a{background-position:-623px 0;}
+.service_steps li span.a9 a{background-position:-712px 0;}
+.service_steps li span.a10 a{background-position:-801px 0;}
+.service_steps li span.a11 a{background-position:-890px 0;}
+.service_steps li span.a12 a{background-position:-979px 0;}
+.service_steps li span.a13 a{background-position:-1068px 0;}
+.service_steps li span.a1 a:hover{background-position:0  -89px;}
+.service_steps li span.a2 a:hover{background-position:-89px -89px;}
+.service_steps li span.a3 a:hover{background-position:-178px -89px;}
+.service_steps li span.a4 a:hover{background-position:-267px -89px;}
+.service_steps li span.a5 a:hover{background-position:-356px -89px;}
+.service_steps li span.a6 a:hover{background-position:-445px -89px;}
+.service_steps li span.a7 a:hover{background-position:-534px -89px;}
+.service_steps li span.a8 a:hover{background-position:-623px -89px;}
+.service_steps li span.a9 a:hover{background-position:-712px -89px;}
+.service_steps li span.a10 a:hover{background-position:-801px -89px;}
+.service_steps li span.a11 a:hover{background-position:-890px -89px;}
+.service_steps li span.a12 a:hover{background-position:-979px -89px;}
+.service_steps li span.a13 a:hover{background-position:-1068px -89px;}
+.service_steps li span.a1 a:active{background-position:0  -178px;}
+.service_steps li span.a2 a:active{background-position:-89px -178px;}
+.service_steps li span.a3 a:active{background-position:-178px -178px;}
+.service_steps li span.a4 a:active{background-position:-267px -178px;}
+.service_steps li span.a5 a:active{background-position:-356px -178px;}
+.service_steps li span.a6 a:active{background-position:-445px -178px;}
+.service_steps li span.a7 a:active{background-position:-534px -178px;}
+.service_steps li span.a8 a:active{background-position:-623px -178px;}
+.service_steps li span.a9 a:active{background-position:-712px -178px;}
+.service_steps li span.a10 a:active{background-position:-801px -178px;}
+.service_steps li span.a11 a:active{background-position:-890px -178px;}
+.service_steps li span.a12 a:active{background-position:-979px -178px;}
+.service_steps li span.a13 a:active{background-position:-1068px -178px;}
+.service_list { overflow:hidden; margin-left:10px; line-height:32px; padding-bottom:30px; margin-left:50px;}
+.service_list li{ float:left; width:24.9%;}
+.bottom_lip{ height:12px; overflow:hidden; width:100%; margin-top:20px; clear:both;}
+.bottom_lip img{ width:100%;}
+.service_online{ width:164px; height:86px; background:url(../../../../hn_img/help/service/zhixianku.gif) center top; position:fixed; _position:absolute; right:20px; bottom:20px;}
+.service_online a{ width:164px; height:37px; background:url(../../../../hn_img/help/service/zhixianku.gif) left -49px; position:absolute; top:49px; left:0;}
+.service_online a:hover{background-position:0  -86px;}
+.service_online a:active{background-position:0  -123px;}
+/*service-end*/
+
+/*980*/
+.min_980 .jj_nav_hot,
+.min_980 .jj_hot_img,
+.min_980 .jj_hot_img .hot_img,
+.min_980 .jj_nav_hot{ height:325px;}
+.min_980 .jj_hot_img .hot_img .hot_img_len{ height:325px; }
+.min_980 .jj_hot_img .hot_img .hot_img_len .min_max_adap{ height:325px; }
+.min_980 .jj_hot_img .hot_img .hot_img_len1{background:url(../../../../hn_img/help/service/service_top_bg980.jpg) center top; }
+.min_980 .jj_hot_img .hot_img .hot_img_len1 .min_max_adap{background:url(../../../../hn_img/help/service/service_top_bg2980.jpg) left top;}
+.min_980 .min_max_adap{ width:980px;}
+.min_980 .jj_nav_info .nav li a{ padding:0 20px 0 45px; font-size:16px;}
+.min_980 .hot_img_nav{ top:376px; left:427px;}
+.min_980 .jj_nav_info .nav li span{ background-image:url(../../../../hn_img/www/hn/jj_nav_bg_980.png);}
+.min_980 .jj_nav_info .nav{ left:300px;}
+.min_980 .tips_word{ font-size:12px;}
+
+/*service*/
+.min_980 .service_search{height:44px; top:195px; left:260px; width:472px;}
+.min_980 .service_search .inp{height:44px;  line-height:44px; width:408px; font-size:14px;}
+.min_980 .service_search .btn{height:44px; left:428px; width:44px; background-image:url(../../../../hn_img/help/service/service_but_bg980.png);}
+.min_980 .service_search .btn:hover{ background-position:left -44px;}
+.min_980 .service_search .btn:active{ background-position:left -88px;}
+.min_980 .service_search .search_auto{ top:44px; width:428px; line-height:24px; font-size:14px;}
+.min_980 .service_search .search_auto li{ padding:5px 10px; color:#999;}
+.min_980 .service_search .search_auto .hover{ background:#EBEBEB; color:#3B3B3B;}
+.min_980 .service_steps li,.min_980 .service_list li{ width:33.29%;}
+/*service-end*/
+

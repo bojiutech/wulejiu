@@ -1,0 +1,81 @@
+/****************************************************************************
+Copyright (c) 2014-2016 Beijing TianRuiDiAn Network Technology Co.,Ltd.
+Copyright (c) 2014-2016 ShenZhen Redbird Network Polytron Technologies Inc.
+ 
+http://www.hotniao.com
+
+All of the content of the software, including code, pictures, 
+resources, are original. For unauthorized users, the company 
+reserves the right to pursue its legal liability.
+****************************************************************************/
+
+package com.umeng.social;
+
+import android.text.TextUtils;
+import android.util.Log;
+
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+
+/**
+ * @author mrsimple
+ */
+public final class ReflectUtils {
+    /**
+     * 根据方法名调用相应的方法</br>
+     * 
+     * @param value 调用方法的实例
+     * @param methodName 方法名
+     * @param parameterTypes 方法的参数类型
+     * @param args 方法的参数值
+     */
+    public static void invokeMethod(Object object, String methodName, Class<?>[] parameterTypes,
+            Object[] args) {
+        if (object == null || TextUtils.isEmpty(methodName)) {
+            return;
+        }
+        try {
+            Method method = object.getClass().getMethod(methodName, parameterTypes);
+            Log.d("", "### 找到 " + methodName + ", obj : " + object);
+            method.invoke(object, args);
+        } catch (NoSuchMethodException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (IllegalArgumentException e) {
+            e.printStackTrace();
+        } catch (InvocationTargetException e) {
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * 创建clzpath对应类的实例</br>
+     * 
+     * @param clzPath 类路径
+     * @param parameterTypes 该类构造函数的参数类型
+     * @param args 该类的构造函数的参数
+     * @return 该clzPath对应类的实例，如果该类不存在则返回null
+     */
+    public static Object newHandlerInstance(String clzPath, Class<?>[] parameterTypes, Object[] args) {
+        try {
+            Class<?> clz = Class.forName(clzPath);
+            Constructor<?> constructor = clz.getConstructor(parameterTypes);
+            return constructor.newInstance(args);
+        } catch (NoSuchMethodException e) {
+            e.printStackTrace();
+        } catch (InstantiationException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (IllegalArgumentException e) {
+            e.printStackTrace();
+        } catch (InvocationTargetException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+}

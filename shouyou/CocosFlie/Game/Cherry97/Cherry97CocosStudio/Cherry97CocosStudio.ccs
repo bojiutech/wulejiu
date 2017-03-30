@@ -1,0 +1,79 @@
+<Solution>
+  <PropertyGroup Name="Cherry97CocosStudio" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="Games">
+          <Folder Name="Cherry97">
+            <Folder Name="Cherry97Ui">
+              <Folder Name="Cherry97Res">
+                <Image Name="artwork.png" />
+                <Image Name="autobtn_02.png" />
+                <Image Name="autobtn_03.png" />
+                <Image Name="autobtn_04.png" />
+                <Image Name="awardFirst.png" />
+                <Image Name="awardSecond.png" />
+                <Image Name="beilvbiao1.png" />
+                <Image Name="caijinMoney.png" />
+                <Image Name="close_btn.png" />
+                <Image Name="common_bg.png" />
+                <Image Name="defen_02.png" />
+                <Image Name="defen_03.png" />
+                <Image Name="defen_04.png" />
+                <Image Name="ditu.png" />
+                <Image Name="ewfen.png" />
+                <Image Name="ewnum.png" />
+                <Image Name="gexianyafen.png" />
+                <Image Name="gree_btn.png" />
+                <Image Name="jiangchi.png" />
+                <Image Name="jinbi.png" />
+                <Image Name="kaishi_02.png" />
+                <Image Name="kaishi_03.png" />
+                <Image Name="kaishi_04.png" />
+                <Image Name="kandajiang_01.png" />
+                <Image Name="kandajiang_03.png" />
+                <Image Name="kandajiang_04.png" />
+                <Image Name="line.png" />
+                <Image Name="lineD.png" />
+                <Image Name="lineE.png" />
+                <Image Name="lineshu.png" />
+                <Image Name="LobbyCenter_friend.png" />
+                <Image Name="name.png" />
+                <Image Name="nextpage_01.png" />
+                <Image Name="nextpage_02.png" />
+                <Image Name="num_2.png" />
+                <Image Name="prepage_01.png" />
+                <Image Name="prepage_02.png" />
+                <Image Name="quit.png" />
+                <Image Name="quxiao_02.png" />
+                <Image Name="red_btn.png" />
+                <Image Name="redkuang.png" />
+                <Image Name="rollBg.png" />
+                <Image Name="setBet.png" />
+                <Image Name="shangfen_02.png" />
+                <Image Name="shangfen_03.png" />
+                <Image Name="shangfen_04.png" />
+                <Image Name="shangyafen.png" />
+                <Image Name="touming.png" />
+                <Image Name="winMoney.png" />
+                <Image Name="yafen_02.png" />
+                <Image Name="yafen_03.png" />
+                <Image Name="yafen_04.png" />
+                <Image Name="zhedang.png" />
+                <Image Name="ziti_hong.png" />
+              </Folder>
+              <Project Name="AwardNode.csd" Type="Node" />
+              <Project Name="BetTableNode.csd" Type="Node" />
+              <Project Name="CheckPrizeNextNode.csd" Type="Node" />
+              <Project Name="CheckPrizeNode.csd" Type="Node" />
+              <Project Name="HistoryTableNode.csd" Type="Node" />
+              <Project Name="MainNode.csd" Type="Node" />
+              <Project Name="ShareNode.csd" Type="Node" />
+            </Folder>
+          </Folder>
+        </Folder>
+        <TTF Name="simkai.ttf" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

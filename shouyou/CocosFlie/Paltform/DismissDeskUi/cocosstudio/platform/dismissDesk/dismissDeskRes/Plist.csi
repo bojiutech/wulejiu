@@ -1,0 +1,13 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Plist" Type="Plist" ID="d1f00c90-88d1-41f2-acde-14ce97daa342" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="platform/dismissDesk/dismissDeskRes/set_jujue.png" />
+      <FilePathData Path="platform/dismissDesk/dismissDeskRes/set_shenqing.png" />
+      <FilePathData Path="platform/dismissDesk/dismissDeskRes/set_tongyi.png" />
+      <FilePathData Path="platform/dismissDesk/dismissDeskRes/set_zhong.png" />
+      <FilePathData Path="platform/dismissDesk/dismissDeskRes/tip_kuang.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

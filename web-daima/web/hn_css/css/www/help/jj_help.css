@@ -1,0 +1,143 @@
+body{background: #eef0ef url(http://hn_img/cms/image/www/rank/bg.jpg) repeat-y scroll center top;}
+/*yi+*/
+.jj_pub_header .na2 {left: 280px;}
+.jj_help_tow_nav,.jj_help_tow_nav .nav_box .l a{background:url(http://hn_img/help/help2014/nav_bg.gif) repeat-x;}
+.jj_help_tow_nav{ width:100%; height:44px; position:relative; z-index:10; font-family:"Microsoft YaHei"}
+.jj_help_tow_nav .nav_box{ width:980px; position:relative; height:44px; margin:auto}
+.jj_help_tow_nav .nav_box .l a{ padding:0 16px; height:44px; float:left; display:block; color:#fff; font-size:16px; line-height:44px;}
+.jj_help_tow_nav .nav_box a:hover,.jj_help_tow_nav .nav_box  a.cli{ background-position:0 -44px;}
+.search_auto{border:1px solid #9aadca;  position:absolute;  width: 307px;background:#fff;*margin-top:27px; *margin-left:-208px; z-index:200; display:none; left:-1px}
+.search_auto .line{ line-height:20px; padding:5px}
+.search_auto .hover{ color:#fff; background:#739cda}
+/*yi+end*/
+.help_main{ width:980px; height:auto; margin:auto; font-size:14px;font-family:"Microsoft YaHei"; margin-bottom:30px;}
+.help_nav{ width:100%; height:35px; margin-top:10px;}
+.help_nav .mbx{ float:left; color:#bcc2ca; height:35px; line-height:35px;}
+.help_nav .mbx span{ padding:0 7px}
+.help_nav .mbx a{ color:#2c8fd2;}
+.help_nav .search{ width:420px; height:35px; float:right}
+.help_nav .search span{ padding-left:30px; width:278px; height:33px; background:url(http://hn_img/help/help2014/search.gif) no-repeat 7px 6px #fff; border:1px #dae4eb solid; border-right:none; float:left; position:relative}
+.help_nav .search input{ width:270px; height:33px; line-height:33px; border:none; font-size:12px; font-family:Arial, Helvetica, sans-serif; color:#aab2bd; outline:none}
+.help_nav .search button{ width:111px; height:35px; text-align:center; background:#ff7e30; color:#fff; font-size:18px; float:left; display:block; outline:none; border:none; cursor:pointer;font-family:"Microsoft YaHei";}
+.help_con,.all_game{ width:978px; border:1px #cbccce solid; margin-top:10px; box-shadow: 0 0 3px rgba(0,0,0,0.3); background:#fff; height:auto; overflow:hidden}
+.help_con{min-height:702px;}
+.n_bg{ background:none;box-shadow:none; border:none}
+.help_con .left{ width:262px; float:left; background:url(http://hn_img/help/help2014/left_bg.gif) repeat-y; min-height:702px;}
+.help_con .left_1{ margin-left:15px;border:1px #cbccce solid; box-shadow: 0 0 3px rgba(0,0,0,0.3); width:245px}
+.help_con .left .l_s{width:228px; height:35px; float:left; margin:22px 0 0 17px; display:inline}
+.help_con .left .l_s span{ padding-left:30px; width:126px; height:33px; background:url(http://hn_img/help/help2014/search.gif) no-repeat 7px 6px #fff; border:1px #dae4eb solid; border-right:none; float:left; position:relative}
+.help_con .left .l_s input{ width:126px; height:33px; line-height:33px; border:none; font-size:12px; font-family:Arial, Helvetica, sans-serif; color:#aab2bd; outline:none}
+.help_con .left .l_s button{ width:70px; height:35px; text-align:center; background:#ff7e30; color:#fff; font-size:18px; float:left; display:block; outline:none; border:none; cursor:pointer;font-family:"Microsoft YaHei";}
+.help_con .left h3{ width:231px; padding-left:30px; height:50px; background:#fff; line-height:50px; font-weight:normal; border-right:1px #f4f4f4 solid; font-size:22px; color:#0066cc;float:left }
+.help_con .left_1 h3{ width:214px}
+.help_con .left .up{ background:url(http://hn_img/help/help2014/zs.gif) no-repeat 230px 22px #fff; cursor:pointer}
+.help_con .left .down{ background:url(http://hn_img/help/help2014/zs.gif) no-repeat 230px -22px #fff; margin-bottom:1px; cursor:pointer}
+.help_con .left ul{ width:100%; background:url(http://hn_img/help/help2014/ul_bg.gif) no-repeat top left;float:left; padding-bottom:47px; margin-top:1px}
+.help_con .left li{ width:100%; height:46px; line-height:46px; float:left}
+.help_con .left li a{ padding-left:30px;width:232px; color:#333; height:46px; line-height:46px; display:block}
+.help_con .left li a:hover{ background:#e9e9e9; border-top:1px #e1e1e1 solid; border-bottom:1px #e1e1e1 solid; height:42px; line-height:42px;}
+.help_con .left li a:active{ background:#e3e3e3;}
+.help_con .left_1 li a{ width:215px;}
+.help_con .left .active{ background:url(http://hn_img/help/help2014/li_bg.gif) no-repeat 245px 16px #fff}
+.help_con .left_1 .active{background:url(http://hn_img/help/help2014/li_bg.gif) no-repeat 220px 16px #fff}
+.help_con .left .active a:hover{ background:none; border:none;height:46px; line-height:46px;}
+.help_con .left .line{ border-top:1px #f8f8f8 solid;border-bottom:1px #f8f8f8 solid; height:44px;}
+.help_con .left .kf_on{ width:100%; height:70px; line-height:70px; margin-top:3px; color:#666; text-align:center; display:block; border-bottom:1px #e5e5e5 solid; border-top:1px #e1e1e1 solid; font-size:24px;float:left; background:#e8e8e8}
+.help_con .left p{ width:100%; height:60px; text-align:center; line-height:60px; color:#666; font-size:20px; font-weight:bold; float:left}
+.help_con .left .blue{ color:#79a5de; padding-left:12px;}
+.help_con .right{ width:716px; min-height:702px; float:left; height:auto; overflow:hidden;}
+.help_con .r_ts{ width:714px;border:1px #cbccce solid; box-shadow: 0 0 3px rgba(0,0,0,0.3); background:#fff; padding-bottom:30px}
+.help_con .right .pub { width:100%; height:50px; line-height:50px; float:left; background:#fff;}
+.help_con .right .pub .title,.help_con .right .pub h3{ float:left; padding-left:20px; color:#ff7e30; font-size:22px; font-weight:normal;font-family:"Microsoft YaHei"}
+.help_con .right .pub .game,.help_con .right .pub .game:hover{ color:#0092db}
+.help_con .right .pub a{ float:right; padding-right:14px; color:#0089d4; font-size:12px; font-family:Arial, Helvetica, sans-serif;}
+.help_con .right .pub a:hover{ color:#ff7e30}
+.help_con .right .pub span{ color:#666;font-size:22px;font-family:"Microsoft YaHei"; padding-left:12px}
+.help_con .right .web_q{ border-bottom:1px #f4f4f4 solid;border-top:1px #f4f4f4 solid; background:url(http://hn_img/help/help2014/r_bg.gif) repeat-x #fff; height:160px; width:100%; float:left}
+.help_con .right .web_q ul{ padding:44px 0 0 34px;}
+.help_con .right .web_q li{ float:left; width:216px; overflow:hidden; height:76px}
+.help_con .right .web_q li img{ height:60px; float:left;}
+.help_con .right .web_q a{ padding-left:12px; color:#666; display:inline-block; float:left; width:144px}
+.help_con .right .web_q a:hover{color:#2c8fd2}
+.help_con .right .web_q .ts,.all_game .game_con .p_a .big{ font-size:18px; color:#2c8fd2}
+.help_con .right .web_q .img_a{ padding:0; width:60px}
+.help_con .right .web_q .im_a{ padding:0; width:80px}
+.help_con .right .game_q ul{padding:44px 0 0 30px;}
+.help_con .right .game_q li{ width:220px; height:80px}
+.help_con .right .game_q li img{ height:80px;}
+.help_con .right .game_q li a{ line-height:26px; width:128px}
+.help_con .right .com_q{ width:100%; height:214px;border-top:1px #f4f4f4 solid;background:url(http://hn_img/help/help2014/r_bg.gif) repeat-x top #fff; float:left}
+.help_con .right .com_q ul{ float:left; width:264px; margin:20px 0 0 56px; display:inline}
+.help_con .right .com_q li{ height:32px; line-height:32px; color:#666; padding-left:12px; width:252px; background:url(http://hn_img/help/help2014/dian.gif) no-repeat 0 15px;}
+.help_con .right .com_q li a{ color:#666; font-size:15px;}
+.help_con .right .com_q li a:hover{color:#0092db}
+.help_con .right .p_con,.help_con .right .bug{ padding:0 20px;border-top:1px #f4f4f4 solid; background:url(http://hn_img/help/help2014/r_bg.gif) repeat-x #fff; height:auto; float:left; width:676px; padding-bottom:54px}
+.help_con .right .p_con p{ width:100%; line-height:32px; font-size:15px; color:#666; padding-top:12px;display: inline-block;}
+.help_con .right .p_con img{ max-width:676px; margin-top:12px}
+.help_con .right .p_con a{ color:#2c8fd2;}
+.help_con .right .p_con .red{ color:#ff0000}
+.help_con .right .p_con h4{ width:656px; height:39px; line-height:40px; border-bottom:1px #e6e6e6 solid; padding-left:20px; color:#333; font-size:20px; font-weight:normal; background:url(http://hn_img/help/help2014/shu.gif) no-repeat 4px 8px; margin-top:12px}
+.help_con .right .p_con .n_b{ background:none; height:5px}
+.help_con .right .p_con .go_in{ padding:0 28px; height:34px; line-height:34px; background:#56abe4; border-radius:5px; color:#fff; font-size:16px; float:right; display:block; margin-top:30px}
+.help_con .right .p_con .go_in:hover,.help_con .right .bug button:hover{ background:#6fb8e8}
+.help_con .right .p_con .go_in:active,.help_con .right .bug button:active{ background:#4992c2}
+.help_con .right .p_con li{ padding-left:40px; height:52px; line-height:52px; width:636px; border-bottom:1px #eee solid; background:url(http://hn_img/help/help2014/sj.gif) no-repeat 18px 22px;}
+.help_con .right .p_con li a{ font-size:16px; color:#666}
+.help_con .right .p_con li a:hover{color:#2c8fd2;}
+.help_con .right .p_con .go_in_1{ float:none; display:inline-block}
+.help_con .right .p_con .zhu{ color:#ff7069}
+.help_con .right .p_con .icon{ margin-top:0}
+.help_con .right .p_con table{ margin-top:14px;border-collapse:inherit;border-spacing:1px;color:#4f5e72;}
+.help_con .right .p_con thead td{ background:#f0f0f0; font-size:16px; font-family:"Microsoft YaHei"}
+.help_con .right .p_con td{ padding:16px 12px; text-align:center; background:#fff; font-size:12px; font-family:Arial, Helvetica, sans-serif}
+.help_con .right .p_con td img{ width:120px; height:100px; margin-top:0}
+.help_con .right .wp{ width:100%; height:auto;border-top:1px #f4f4f4 solid; background:url(http://hn_img/help/help2014/r_bg.gif) repeat-x #fff; overflow:hidden}
+.help_con .right .wp li{ padding:9px; width:120px; float:left; height:162px; border:1px #e8e8e8 solid; margin:30px 0 0 30px; display:inline; background:#fff}
+.help_con .right .wp li img{ width:120px; height:120px}
+.help_con .right .wp li strong{ width:100%; line-height:20px; color:#4a89dc; text-align:center; display:block; padding-top:2px}
+.pagination {clear: both;color: #999999;height: 25px; padding: 20px 0;text-align: center;}
+.pagination a {border: 1px solid #CCCCCC;color: #666;display: inline-block;font-family: Arial,Tahoma;height: 25px;line-height: 25px;margin: 0 2px;padding: 0 10px;font-size: 14px;background: url(http://hn_img/www/rank/bg_page.png) repeat-x 0 0;}
+.pagination a.mores{ border: none; background: none;}
+.pagination a.on,.pagination .on:hover  {background:#f2f2f2; border:1px solid #e6e9ed; color:#d1d1d1; text-decoration:none; cursor:default;}
+.pagination a:hover{ color: #4cacea;}
+.pagination a.mores:hover{ background: none; border: none;color: #666;}
+.pagination .t {border: 1px solid #CCCCCC;height: 16px;line-height: 16px;padding: 2px 0;position: relative;text-align: center;width: 30px;}
+.all_game h3{ padding-left:20px; display:inline-block; height:50px; line-height:50px; float:left; background:#fff;color: #ff7e30;font-size: 22px; width:958px}
+.all_game .game_con{background: url("http://hn_img/help/help2014/r_bg.gif") repeat-x scroll 0 0 #fff; width:978px; border-top:1px #f3f3f4 solid; float:left}
+.all_game .game_con .con_1{ padding:40px 19px 0 19px; width:940px; height:124px; border-bottom:1px #f4f4f4 solid}
+.all_game .game_con li{ width:235px; float:left;}
+.all_game .game_con .im_a{ width:80px; height:80px; float:left;}
+.all_game .game_con .im_a img{ width:80px;}
+.all_game .game_con .p_a{ float:left; width:140px; margin-left:10px; display:inline;}
+.all_game .game_con .p_a a{color:#666; display:inline-block; float:left; width:140px}
+.all_game .game_con .p_a a:hover{color:#2c8fd2}
+.all_game .game_con p{ padding: 16px 0 38px 30px;background: url("http://hn_img/help/help2014/r_bg.gif") repeat-x scroll 0 0 #fff; height:auto; overflow:hidden;border-top:1px #f3f3f4 solid;}
+.all_game .game_con p a{background: url("http://hn_img/help/help2014/sj.gif") no-repeat scroll 0px 10px rgba(0, 0, 0, 0); padding-left:10px; width:108px; float:left; height:30px; line-height:30px; font-size:14px; color:#666}
+.all_game .game_con p a:hover,.all_game .game_con .con_2 li a:hover{color:#2c8fd2;}
+.all_game .game_con .con_2{ padding:20px 0 30px 30px; height:auto; overflow:hidden}
+.all_game .game_con .con_2 li{ float:left;background: url("http://hn_img/help/help2014/dian.gif") no-repeat scroll 0 15px rgba(0, 0, 0, 0);height: 32px;line-height: 32px; padding-left: 12px; width:304px;}
+.all_game .game_con .con_2 li a{color: #666}
+.help_con .right .bug li{ margin-top:20px; font-size:15px; color:#666; width:100%; float:left;}
+.help_con .right .bug span{ float:left; line-height:36px; margin-right:14px; display:inline;}
+.help_con .right .bug font{ color:#F00}
+.help_con .right .bug input{ width:206px; height:34px; line-height:34px; border:1px #c2c2c2 solid; float:left; color:#999; font-size:15px; padding-left:10px;font-family:"Microsoft YaHei"; margin-right:10px;}
+.help_con .right .bug select{ width:218px;line-height:34px; border:1px #c2c2c2 solid; font-size:15px;font-family:"Microsoft YaHei"; padding:5px 0}
+.help_con .right .bug textarea{ width:530px;border:1px #c2c2c2 solid; font-size:15px;font-family:"Microsoft YaHei"; padding:10px; line-height:30px; height:120px;resize: none; overflow-y:auto}
+.help_con .right .bug .w256{ width:256px;}
+.help_con .right .bug p{ width:620px; margin-top:20px; line-height:40px; color:#ff7069; padding-left:10px; float:left;font-size: 15px;}
+.help_con .right .bug a{ color:#2c8fd2}
+.help_con .right .bug button{padding:0 42px; height:34px; background:#56abe4; border-radius:5px; color:#fff; cursor:pointer; font-size:16px; margin:auto; display:block; margin-top:30px;font-family:"Microsoft YaHei"; border:0; outline:0;overflow:visible;width:auto}
+.text_info{ font-size:14px; line-height:24px; font-family:"Microsoft YaHei"; color:#666;background: url("http://hn_img/help/help2014/r_bg.gif") repeat-x 0px 51px #fff; padding:0 20px}
+.text_info a{ text-decoration:underline; color:#4a89dc; font-size:14px; text-decoration:none}
+.text_info p{ padding:10px 0px;}
+.text_info ul{}
+.text_info h1{ font:18px 'Microsoft YaHei',Arial,Helvetica,SimHei; height:50px; line-height:50px;background:#fff; text-align:center;border-bottom: 1px solid #f4f4f4; width:100%}
+.text_info h2{ font-size:14px;  margin-top:10px; font-weight:bold}
+.text_info h3{ font-size:14px; padding-top:10px}
+.text_info .t{ font:12px Arial; line-height:18px; margin-top:6px; text-align:center; color:#999; line-height:36px; height:36px;}
+.text_info .t a{ float:left; color: #4a89dc;}
+.text_info .t span{ margin:0 10px; float:right}
+.text_info table{ text-align:center; background:#c9c9c9; margin-left:10px;}
+.text_info table td{ background:#FFF; padding:0 4px;}
+.text_info table th{ background:#e2e2e2; padding:0 4px;}
+.text_info .center{ text-align:center;} 

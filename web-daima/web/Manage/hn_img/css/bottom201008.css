@@ -1,0 +1,129 @@
+@charset "gb2312";
+body{ margin:0; padding:0; color:#333; background:#fff; font-family:Arial,Tahoma; font-size:12px;}
+ul,li,h1,h2,h3,h4,h5,h6,div,form,input,button,dl,dt,dd,ol,p,td{ margin:0; padding:0;}
+ul,li{list-style-image:none;list-style-type:none;}
+a{text-decoration:none; color:#333;}
+a:hover{ text-decoration:underline; color:#900;}
+img{ border:0;}
+em{ font-style:normal;}
+.center{ text-align:center;}
+.h_1px{ height:1px; line-height:1px; clear:both; overflow:hidden;}
+.h_8px{ height:8px; line-height:8px; clear:both; overflow:hidden;}
+.topbg{ background:url(http://hn_img/images/newIndex/201008/indtipbg.png); height:36px; width:100%; position:absolute; left:0; top:0; z-index:2;}
+.topInfo{ height:36px; width:960px; position:relative; clear:both; z-index:4; margin:0 auto; height:3px; font-family:Tahoma, Geneva, sans-serif; font-size:12px;}
+.topInfo .topIfnav{ position:absolute; line-height:32px; color:#cbbd74; font-family:Tahoma;}
+.topInfo .topIfnav a{ color:#666;}
+.topInfo .topIfnav span{ color:#666;}
+.topInfo .topIfnav a b{ color:#44835f; padding-left:2px;}
+.topInfo .topIfnav a.A2{ font-weight:bold; color:#c36f2b;}
+/*×îºóÒªÉ¾*/
+.topInfo .toploding{ position:absolute; height:31px; right:7px; top:2px;}
+.topInfo .toploding .TLl{ width:7px; height:31px; background:url(http://hn_img/images/newIndex/201008/toplodingl.png); display:block; position:absolute; overflow:hidden; left:-7px; top:0; _background:none; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true',src="http://hn_img/images/newIndex/201008/toplodingl.png")}
+.topInfo .toploding .TLc{ height:31px; background:url(http://hn_img/images/newIndex/201008/toplodingc.png); width:450px; display:block; top:0; _background:none; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true',src="http://hn_img/images/newIndex/201008/toplodingc.png"); overflow:hidden;}
+
+.topInfo .toploding .TLr{ width:7px; height:31px; background:url(http://hn_img/images/newIndex/201008/toplodingr.png); display:block; position:absolute; overflow:hidden; right:-7px; top:0; _background:none; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true',src="http://hn_img/images/newIndex/201008/toplodingr.png");}
+
+.topInfo .loadingN{ text-align:center; position:relative; z-index:20; padding-top:7px; color:#716147;}
+.topInfo .TLoding{ position:absolute; width:340px; height:31px; right:86px; top:2px;}
+.topInfo .TLoding .TLl{ width:7px; height:31px; background:url(http://hn_img/images/newIndex/201008/toplodingl.png); display:block; position:absolute; overflow:hidden; z-index:1; left:-7px; top:0; _background:none; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true',src="http://hn_img/images/newIndex/201008/toplodingl.png");}
+.topInfo .TLoding .TLcW{ width:340px; overflow:hidden; position:absolute; top:0; left:0;  z-index:1;}
+.topInfo .TLoding .TLc{ height:31px; background:url(http://hn_img/images/newIndex/201008/toplodingc.png); width:450px; display:block; top:0; _background:none; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true',src="http://hn_img/images/newIndex/201008/toplodingc.png"); overflow:hidden;}
+.topInfo .TLoding .TLr{ width:7px; height:31px; background:url(http://hn_img/images/newIndex/201008/toplodingr.png); display:block; position:absolute; overflow:hidden; z-index:1; right:-7px; top:0; _background:none; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true',src="http://hn_img/images/newIndex/201008/toplodingr.png");}
+
+.topInfo .TLoding .MatchTiShi{ border:1 px solid #900; z-index:2; top:26px; left:-6px; width:352px; background:url(http://hn_img/images/newIndex/201008/toupiandibg.png) bottom no-repeat; _background:url(http://hn_img/images/newIndex/201008/toupiandibg.gif) bottom no-repeat; line-height:18px; position:absolute;}
+.topInfo .TLoding .MatchTiShi .TiS{ padding:3px 10px 8px 10px; float:left; display:inline; width:302px; margin:0 3px; border-top:1px solid #fff; overflow:hidden;}
+.topInfo .TLoding .MatchTiShi .TiS .A1{ color:#6b6f2a; text-decoration:none; float:left;}
+.topInfo .TLoding .MatchTiShi .TiS .A2{ float:left;}
+.topInfo .TLoding .MatchTiShi .TiS .A2 a{ text-decoration:none; color:#d1005d;}
+.topInfo .TLoding .MatchTiShi .TiS .A2 a:hover{ color:#f54e96;}
+.topInfo .TLoding .MatchTiShi .TiS .A2 span{ text-decoration:underline;}
+.topInfo .TLoding .MatchTiShi .C{ width:12px; height:11px; background:url(http://hn_img/images/newIndex/201008/matchguangbi.gif) top no-repeat; overflow:hidden; position:absolute; top:8px; right:10px;}
+.topInfo .TLoding .MatchTiShi .C:hover{ background-position:left -11px;}
+.topInfo .TLoding .MatchTiShi .C:active{background-position:left -22px;}
+.topInfo .Lo{ position:absolute;left:0; z-index:10; top:4px;}
+.topInfo .Lo li{ float:left; line-height:18px; padding-left:6px;}
+.topInfo .Lo li input{ border:1px solid #dad5c3; border-bottom:1px solid #fff; border-right:1px solid #fff; height:16px; width:68px; background:#f9f4df; float:left;}
+.topInfo .Lo li button{ width:32px; height:17px; border:none; cursor:pointer; background:url(http://hn_img/images/newIndex/201008/lodingbut.gif); float:left;}
+.topInfo .Lo .li1{ padding-left:3px;}
+.topInfo .Bu{ position:absolute; right:0; top:4px; z-index:10;}
+.topInfo .Bu li{ float:left; line-height:18px; padding-right:6px;}
+.topInfo .Bu li img{ float:left; background:#f6f4ed;}
+.topInfo .Fy{ position:absolute; left:0; z-index:10; top:4px; line-height:18px; color:#c2934e;}
+.topInfo .Fy li{ float:left; display:inline; position:relative;}
+.topInfo .Fy li img{ float:left; position:relative; z-index:1;}
+.topInfo .Fy li .X .pImg{ height:15px; width:15px; overflow:hidden; display:inline; float:left; margin:2px 6px 3px 2px; position:relative; z-index:1;}
+.topInfo .Fy li .X .pImg img{ height:15px; position:absolute; left:-1px; top:0;}
+.topInfo .Fy li .pImgTop{ width:21px; height:21px; position:absolute; left:3px; top:-1px; z-index:28; background:url(http://hn_img/images/newIndex/201008/touxiantop.png);_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true',src="http://hn_img/images/newIndex/201008/touxiantop.png");_background:none;}
+.topInfo .Fy li .X{ position:relative; z-index:10; padding:0 5px 0 4px;}
+.topInfo .Fy li .X b{ color:#C00; font-size:12px; font-family:Arial, Helvetica, sans-serif;}
+.topInfo .Fy li .L{ left:0; top:-3px; width:100%; z-index:1; position:absolute; display:none;}
+.topInfo .Fy li .L .T1{ background:url(http://hn_img/images/newIndex/201008/fyTopBg.gif) top right; height:28px; width:100%; position:relative; z-index:2;}
+.topInfo .Fy li .L .T1 b{ height:28px; width:4px; background:url(http://hn_img/images/newIndex/201008/fyTopBg.gif) top left; position:absolute; left:0; top:0;}
+.topInfo .Fy li .L .LR{ border:1px solid #d5d3ca; border-bottom:1px solid #e3e3e3; background:#fff url(http://hn_img/images/newIndex/201008/FyliLLRbg.gif) bottom left repeat-x; padding-top:4px; position:absolute; right:1px; _right:0; top:22px; z-index:1; padding-bottom:4px; font-family:SimSun;}
+.topInfo .Fy li .L .LR01{ width:168px; padding-left:4px;}
+.topInfo .Fy li .L .LR01 .Go{ width:58px; height:58px; display:inline; position:relative; float:left;}
+.topInfo .Fy li .L .LR01 .Go .GoTo{ width:58px; height:58px; display:block; z-index:2; position:absolute; left:0; top:0; background:url(http://hn_img/images/newIndex/201008/mylogotopbg.png);_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true',src="http://hn_img/images/newIndex/201008/mylogotopbg.png");_background:none;}
+.topInfo .Fy li .L .LR01 .Go .GoTo a{ width:58px; height:58px; display:block;}
+.topInfo .Fy li .L .LR01 .Go .GoDi{ position:absolute; left:4px; top:4px; z-index:1; width:50px; height:50px; overflow:hidden;}
+.topInfo .Fy li .L .LR01 .Go .GoDi img{ position:absolute; left:-3px;}
+.topInfo .Fy li .L .LR01 .Go .Gf{ position:absolute; top:58px; font-size:12px; line-height:14px; left:3px; background:#f3f3f3; padding:1px 2px 0 2px;}
+.topInfo .Fy li .L .LR b{ float:left;}
+.topInfo .Fy li .L .LR span{ float:right;}
+.topInfo .Fy li .L .LR span a{ color:#666;}
+.topInfo .Fy li .L .LR span a:hover{ color:#900;}
+.topInfo .Fy li .L .LR dt{ display:block; line-height:18px; float:left; width:100%; clear:both; line-height:24px; border-bottom:1px dashed #e3e3e3;}
+.topInfo .Fy li .L .LR dt em{ color:#F00;}
+.topInfo .Fy li .L .LR .Dl01{ width:100px; padding-left:6px; float:left;}
+.topInfo .Fy li .L .LR .Dl02{ width:72px;}
+.topInfo .Fy li .L .LR .Dl03{ width:72px;}
+.topInfo .Fy li .L .LR .Dl03 b,.topInfo .Fy li .L .LR .Dl02 b{ float:none; display:block; text-align:center;}
+.topInfo .celerityNavBg{ width:82px; height:28px; background:url(http://hn_img/images/newIndex/201008/kstdbg.png);_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true',src="http://hn_img/images/newIndex/201008/kstdbg.png");_background:none; position:absolute; z-index:10; top:5px; right:0;}
+.topInfo .celerityNav{ width:82px; height:28px; background:url(http://hn_img/images/newIndex/201008/kstd.png) top left no-repeat; position:absolute; z-index:12; cursor:pointer; top:5px; right:0;}
+.topInfo .celerityNav .Na{ position:absolute; top:23px; font-size:14px; text-align:center; line-height:24px; font-weight:bold; padding-top:6px; right:2px; background:#ccc; width:118px; background:url(http://hn_img/images/newIndex/201008/showceleritybavbg.gif) top left no-repeat; display:none;}
+.topInfo .celerityNav .Na li{ float:left; width:100%; height:26px;}
+.topInfo .celerityNav .Na a{ color:#7d5307; text-decoration:none;}
+.topInfo .celerityNav .Na .Di{ background:url(http://hn_img/images/newIndex/201008/showceleritybavbg.gif) left bottom no-repeat; height:auto; font-size:12px; line-height:24px; font-weight:normal; text-align:left; width:115px; padding:0 1px 2px 1px;}
+.topInfo .celerityNav .Na .Di dl{ background:#e8decd; line-height:18px; margin-left:1px; padding:4px 0 2px 0; overflow:hidden;}
+.topInfo .celerityNav .Na .Di dt{ padding-left:18px; background:url(http://hn_img/myjj/img/celeritynavnadidldtbg.gif) 8px 7px no-repeat;}
+
+
+.indextop{ position:relative; width:960px; margin:0 auto; top:0; height:122px; z-index:3; background:url(http://hn_img/images/newIndex/201008/indextopbg.gif) right center no-repeat;}
+.indextop .topNav{ position:absolute; z-index:1; font-family:Tahoma; background:0; width:960px; height:77px; background:url(http://hn_img/images/newIndex/201008/topnavbg.gif); bottom:0;}
+.indextop .topNav .iNav{ position:absolute; font-size:14px; font-weight:bold; top:25px; left:166px; height:52px; display:block;}
+.indextop .topNav .iNav li{ float:left;position:relative; padding-top:10px; color:#ffbb03; background:url(http://hn_img/images/newIndex/201008/inavlibg.png) no-repeat left 10px;}
+.indextop .topNav .iNav li a{ color:#ffbb03; display:block; padding:5px 10px 0 10px; line-height:26px; height:26px; float:left; display:inline; margin-left:2px; position:relative; z-index:1;}
+.indextop .topNav .iNav li a:hover{text-decoration:none; background:#fc0;}
+.indextop .topNav .iNav li span{ top:4px; left:10px; color:#300; position:absolute; cursor:pointer; z-index:2;}
+.indextop .topNav .iNav li a:hover span{ color:#600;}
+.indextop .topNav .iNav .hov{ background:url(http://hn_img/images/newIndex/201008/inavlibg.gif) 0 10px no-repeat; height:42px;}
+.indextop .topNav .iNav .hov em{ right:0; top:12px; width:3px; height:40px;background:url(http://hn_img/images/newIndex/201008/inavlibg.gif) right -2px no-repeat; z-index:3; position:absolute;}
+.indextop .topNav .iNav .hov a:hover{ background:none;}
+.indextop .topNav .iNav .hov a{ color:#fff;}
+.indextop .JJlogo{ position:absolute; z-index:2; top:46px; left:18px;}
+.bottomborder{ border-bottom:1px solid #e9e9e9;}
+/*.bottom { width:956px; clear:both; height:160px; position:relative; z-index:1; margin:16px auto 10px auto; line-height:24px; font-size:12px;}
+.bottom a{ color:#666;}
+.bottom .Lo{ position:absolute; top:16px; left:100px;}
+.bottom .Na{ position:absolute; left:376px; top:16px; background:url(http://img.jj.cn/images/newIndex/bottomNAbg.gif); color:#666; width:415px; height:35px; line-height:30px; text-align:center; color:#CCC;}
+.bottom .Na a{ padding:0 6px;}
+.bottom .Bo{ position:absolute; left:255px; line-height:18px; top:58px; width:655px; text-align:center; padding-bottomNEW:20px;}*/
+
+.innerButtom{clear:both; font-family:Tahoma; padding-bottom:16px; width:956px; margin:10px auto 0 auto; padding-top:4px; border-top:1px solid #ddd6ce; position:relative; z-index:2; color:#999; line-height:24px;}
+.innerButtom .Na{ text-align:center; color:#CCC; position:relative; z-index:1;}
+.innerButtom .Na a{ padding:0 6px; color:#999;}
+.innerButtom .Na a:hover{ padding:0 6px; color:#333;}
+.innerButtom .Bo{ text-align:center; position:relative; z-index:1; line-height:18px;}
+.innerButtom .Bo img{ padding-left:12px;}
+.innerButtom .Ro{ position:absolute; right:0; top:6px; z-index:2;}
+.innerButtom .Ro a.RoA{ width:16px; height:16px; top:0; right:0; position:absolute; display:block;}
+.innerButtom .Ro a.playerIdea{ background:url(http://hn_img/images/newIndex/201008/playerIdea.gif); right:24px;}
+.innerButtom .Ro a.goToTop{ background:url(http://hn_img/images/newIndex/201008/gototop.gif);}
+.innerButtom .Ro a:hover{ background-position:right;}
+.innerButtom .Ro .TBkuistd{ position:absolute; width:80px; top:24px; height:19px; background:url(http://hn_img/images/newIndex/201008/tbkuistdbg.gif); right:0;}
+.innerButtom .Ro .TBkuistd:hover{ background-position:bottom;}
+.innerButtom .Ro .TBkuistd .Na{ position:absolute; right:0; bottom:18px; _bottom:17px; width:76px; background:url(http://hn_img/images/newIndex/201008/tbkuistdna.gif) top; line-height:22px; padding:2px 2px 0 2px;}
+.innerButtom .Ro .TBkuistd .Na a{ display:block; text-decoration:none;color:#333;}
+.innerButtom .Ro .TBkuistd .Na a:hover{ background:#e5e5e5;}
+.innerButtom .Ro .TBkuistd .Na .Di{ background:#ececec; line-height:18px; float:left; width:76px; padding-top:2px;}
+.innerButtom .Ro .TBkuistd .Na .Di dl{ float:left; width:76px;}
+.innerButtom .Ro .TBkuistd .Na .Di a{ color:#481414;}

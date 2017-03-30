@@ -1,0 +1,60 @@
+<Solution>
+  <PropertyGroup Name="gameItemUi" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="platform">
+          <Folder Name="commonRes">
+            <Image Name="close_btn.png" />
+            <Image Name="common_bg.png" />
+            <Image Name="dialog_frame.png" />
+            <Image Name="main_chuangjian.png" />
+          </Folder>
+          <Folder Name="createRoom">
+            <Folder Name="createRoomRes">
+              <Image Name="gou.png" />
+              <Image Name="kuang.png" />
+            </Folder>
+            <Project Name="createRoom.csd" Type="Node" />
+          </Folder>
+          <Folder Name="gameList">
+            <Folder Name="gameItemRes">
+              <Image Name="10100003.png" />
+              <Image Name="31000000.png" />
+              <Image Name="MainButton_game.png" />
+            </Folder>
+            <Project Name="gameItem.csd" Type="Node" />
+          </Folder>
+          <Folder Name="joinRoom">
+            <Folder Name="joinRoomRes">
+              <Image Name="createroom_chuangjianfangjian2.png" />
+              <Image Name="selectroom_0.png" />
+              <Image Name="selectroom_1.png" />
+              <Image Name="selectroom_2.png" />
+              <Image Name="selectroom_3.png" />
+              <Image Name="selectroom_4.png" />
+              <Image Name="selectroom_5.png" />
+              <Image Name="selectroom_6.png" />
+              <Image Name="selectroom_7.png" />
+              <Image Name="selectroom_8.png" />
+              <Image Name="selectroom_9.png" />
+              <Image Name="selectroom_anjian.png" />
+              <Image Name="selectroom_anjian1.png" />
+              <Image Name="selectroom_shanchu.png" />
+              <Image Name="selectroom_shuruhaoma.png" />
+              <Image Name="selectroom_shuzixian.png" />
+            </Folder>
+            <Project Name="joinRoom.csd" Type="Node" />
+          </Folder>
+          <Folder Name="selectRoom">
+            <Folder Name="selectRoomRes">
+              <Image Name="main_chuangjian1.png" />
+              <Image Name="main_jiaru.png" />
+            </Folder>
+            <Project Name="selectRoom.csd" Type="Node" />
+          </Folder>
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

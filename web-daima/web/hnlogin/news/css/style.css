@@ -1,0 +1,509 @@
+@charset "utf-8";
+/* CSS Document */
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,fieldset,lengend,button,input,textarea,form,th,td{margin:0;padding:0;}
+body,button,input,select,textarea{font:12px/1.5 "Microsoft YaHei","\5b8b\4f53";}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+address,cite,dfn,em,i,var{font-style:normal;}
+small{font-size:12px;}
+ul,ol,li{list-style:none;}
+a{text-decoration:none; }a:link,a:visited,a:hover,a:active{text-decoration:none; outline:none;}
+abbr[title],acronym[title]{border-bottom:1px dotted;cursor:help;}
+q:before,q:after{content:'';}:focus{outline:0;}legend{color:#000;}
+fieldset,img,input{border:none; background:none;}button,input,select,textarea{font-size:100%;}
+table{border-collapse:collapse;border-spacing:0;}
+hr{border:none;height:1px;*color:#fff;}img{-ms-interpolation-mode:bicubic;}
+html{color:#525252;}
+a{cursor: pointer; color:#525252;}
+a:hover{ text-decoration:underline; color:#ff3300;}
+.ff3300{color:#ff3300;}
+.fl{ float:left;}
+.fr{ float:right;}
+.clear{ clear:both;}
+.fixed:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.fixed{zoom:1}
+body{ background:#fafafa;}
+.wrap{ margin:0 auto; width:1190px;}
+.abs{position:absolute;}
+.rel{position:relative;}
+.hide_txt{ text-indent:-99999em;}
+.hide{ display:none;}
+.an2{transition:all 0.2s ease-out 0s;}
+.an05{transition:all 0.35s ease-out 0s;}
+.hot_col{ color:#ff3300;}
+.ell{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+.ant_02{transition:all 0.3s ease-out 0s;}
+.ant_01{transition:all 0.2s ease-out 0s;}
+.hot_col{ color:#ff3300;}
+.hot_title{ color:#ff4200;}
+.mgl10{ margin-left:10px;}
+.mag_t50{ margin-top:50px;}
+.mag_t20{ margin-top:20px;}
+.mag_t15{ margin-top:15px;}
+.mag_t10{ margin-top:10px;}
+.mag_t5{ margin-top:5px;}
+.mag_b10{ margin-bottom:10px;}
+
+
+/* 通用顶部 */
+.top a:hover,.header a:hover{ text-decoration:none;}
+.ico-1{ background:url(http://hnlogin/news/images/ico-1.png) no-repeat;}
+.ico-2{ background:url(http://hnlogin/news/images/ico-2.png) no-repeat;}
+.header-box{height:152px; width:100%; transition:all 0.2s linear; }
+.site_head{height:152px; width:100%;box-shadow:0 3px 3px #ddd;z-index:999999; position:relative; left:0; top:0;}
+.headfix{top:0; transition:all 0.2s ease-out 0.02s;}
+.headfix_hide{top:-155px; transition:all 0.2s ease-out 0.02s;}
+.top{ height:31px; background:#fdfdfd; border-bottom:1px solid #e8e8e8;}
+.t-left li a{ display:block; float:left; height:31px; line-height:31px; margin-right:10px; padding-left:15px;}
+.t-left li.bgright,.t-right .bgright{ background:url(http://hnlogin/news/images/bgright.png) right center no-repeat;}
+.t-right li a{ display:block; width:60px; height:31px; line-height:31px; margin-right:5px; padding-left:15px;}
+.t-right li.login-h a{ width:auto; text-align:right; padding:0 5px 0 0;}
+.t-right li.login-h a.t-log-out{width:auto; padding-right:10px; margin-right:10px;}
+.t-left li a i,.t-right li a i{ display:block; float:left; width:14px; height:14px; margin:10px 4px 0 -15px;}
+.webgame{ background-position: 88px -454px;}
+.webgame i{ background-position:0 0;}
+.webgame:hover i{background-position:0 -18px;}
+.setindex i{ background-position:0 -500px;}
+.setindex:hover i{background-position:0 -516px;}
+.collect i{ background-position:0 -37px;}
+.collect:hover i{background-position:0 -54px;}
+.t-right{ width:500px;}
+.registet,.login{ background-position: 73px -454px;}
+.registet i{ background-position:0 -74px;}
+.registet:hover i{background-position:0 -94px;}
+.login i{ background-position:0 -114px;}
+.login:hover i{background-position:0 -132px;}
+.t-right li a.allgame{width:75px; margin-right:0; background-position: 75px -187px;}
+.t-right li a.t-log-name{ padding-left:20px; background-position: 0 -534px; padding-right:2px;}
+.t-right li a.user-vip{ background-image: url(http://hnlogin/news/images/vip.gif);display: block;height: 31px;width: 52px;}
+.t-right li a.user-mes{ padding-left:20px; background-position:0 -557px;}
+
+.user-vip{ background: url(http://hnlogin/news/images/vip.gif) 0 7px no-repeat;display:block;height:24px;width:52px;}
+.vip-0 {background-position: 0 7px;}
+.vip-1 {background-position: 0 -19px;}
+.vip-2 {background-position: 0 -45px;}
+.vip-3 {background-position: 0 -71px;}
+.vip-4 {background-position: 0 -96px;}
+.vip-5 {background-position: 0 -122px;}
+.vip-6 {background-position: 0 -148px;}
+.vip-7 {background-position: 0 -174px;}
+.vip-8 {background-position: 0 -199px;}
+
+.zy-ico{background-position: 0 -292px;}
+.hot-ico{ background-position: 0 -320px; }
+.news-ico{ background-position: 0 -348px;}
+.test-ico{ background-position: 0 -376px;}
+.hot-ico2{ background-position: 0 -57px; display:block; width:40px; height:40px; left:0; top:0; z-index:999;}
+.news-ico2{ background-position: 0 -111px; display:block; width:40px; height:40px; left:0; top:0;z-index:999;}
+.test-ico2{ background-position: 0 0; display:block; width:40px; height:40px; left:0; top:0;z-index:999;}
+.zy-ico2{ background-position: 0 -586px; display:block; width:40px; height:40px; left:0; top:0;z-index:999;}
+.hot-ico3{ background-position: 0 -349px; display:block; width:40px; height:40px; right:-1px; top:-1px;}
+.news-ico3{ background-position: -86px -349px; display:block; width:39px; height:39px; right:-1px; top:-1px;}
+.test-ico3{ background-position: -44px -349px; display:block; width:39px; height:39px; right:-1px; top:-1px;}
+
+.agwrap{ z-index:99999;}
+.allgame i{ background-position:0 -154px;}
+.allgame:hover i{background-position:0 -173px;}
+.game-list{ width:467px; height:230px; background:url(http://hnlogin/news/images/game-bg.png) no-repeat; right:0; top:25px; display:none;}
+.web-game-sum{ width:195px; height:30px; line-height:30px; left:40px; top:7px; color:#9f9f9f;}
+.hand-game-sum{ width:195px; height:30px; line-height:30px; left:271px; top:7px; color:#9f9f9f;}
+.web-game-list{ width:233px; height:154px; overflow:hidden;  left:1px; top:37px;}
+.game-ul li{ float:left; display:inline;}
+.game-ul li a{ display:block; padding-left:20px; width:95px; height:30px; line-height:30px; background:#fff; margin:1px 0 0 1px;}
+.game-ul li a:hover{ background:#f9f9f9; color:#ff3300;}
+.game-ul a em{ display:block; width:20px; height:20px; float:left; margin-left:5px;}
+.game-ul a font{ display:block; float:left; font-size:12px;}
+.hand-game-list{ width:233px; height:154px; overflow:hidden;  left:233px; top:37px;}
+.t-right li a.web-more{margin:0; padding:0; display:block; width:231px; height:30px; line-height:30px; text-indent:90px; top:193px; }
+.t-right li a.web-game-more{left:2px; border-radius:0 0 0 10px;}
+.t-right li a.hand-game-more{ left:234px; border-radius:0 0 10px 0; }
+.game-ico{ width:16px; height:16px; display:block; background-position: 0 -266px; left:70px; top:7px; -webkit-transform:0.3s ease-out;-moz-transition:0.3s ease-out;-o-transition:0.3s ease-out;-ms-transition:0.3s ease-out;transition:0.3s ease-out;}
+.t-right li a.web-more:hover{ background:#f2f2f2;}
+.t-right li a.web-more:hover em{-webkit-transform: rotateZ(360deg);-moz-transform: rotateZ(360deg);-o-transform: rotateZ(360deg);-ms-transform: rotateZ(360deg);transform: rotateZ(360deg);}
+/* 通用头部 */
+.header{ height:120px; min-width:1190px; background:#fff;box-shadow:0 3px 3px #ddd; z-index:9999;}
+.logo{ height:83px; width:277px; overflow:hidden;}
+.ser_box{ width:610px; height:80px; }
+.ser_con{ left:38px; top:24px;  border-right:none; height:30px; line-height:30px; width:300px; background:url(http://hnlogin/news/images/ser-bg.jpg) no-repeat; }
+.ser_con input{ width:183px; height:20px; line-height:20px; left:77px; top:5px; background:none;}
+.ser_type{ color:#9f9f9f; left:32px; top:0;}
+.ser_btn{ left:264px; top:0; height:30px; width:37px;}
+.onfocus{ background-position:0 -32px;}
+.onfocus .ser_type{color:#ff7c2d; }
+.ser_ul_con{ width:200px; border:1px solid #dddddd; border-top:none; left:63px; top:30px; background:#fff; z-index:999; border-radius:0 0 5px 5px;box-shadow:0 10px 20px rgba(0,0,0,0.14); max-height:300px; overflow-y:auto; display:none;}
+.ser_ul_con a{ display:block; height:30px; line-height:30px; padding-left:25px; background:url(http://hnlogin/news/images/ser-ico.png) no-repeat;}
+.ser_ul_con a.game_m{ background-position:8px -14px;}
+.ser_ul_con a.game_w{ background-position:8px 9px;}
+.ser_ul_con span{ display:block; height:30px; line-height:30px; padding-left:10px; color:#9f9f9f;}
+.ser_ul_con a:hover,.ser_ul_con a.on{ background-color:#f9f9f9; color:#525252;}
+.s_hot_txt{ left:350px; top:24px; height:30px; width:170px; line-height:30px;}
+.s_hot_txt a{ color:#525252; margin-right:5px;}
+.s_hot_txt a.hot_col{ color:#fb5f01;}
+.s_hot_txt a:hover{color:#fb5f01;}
+.flash{ right:0; top:7px; width:376px; height:106px; overflow:hidden;}
+.nav{ width:100%; height:26px; top:77px; padding:8px 0;}
+.navfix{ width:100%; position:fixed; left:0; top:0; background:#fff;z-index:999999;box-shadow:0 3px 3px #ddd;}
+.navbg{background-position:-49px -1px;  width:75px; height:26px; left:338px; top:0; transition:all 0.3s ease-out 0s;}
+.navbg2{ left:83px;}
+.nav li{ float:left; display:inline;}
+.nav li a{ display:block; width:75px; height:26px; line-height:26px; text-align:center;  font-size:14px; padding:0 10px 0 0; transition:color 0.3s ease-out 0s;}
+.nav li a.current{ color:#fff;}
+.nav li.navindex a{ width:45px; text-align:left; padding-left:30px; background-position: 13px -400px;}
+.nav li.navindex a.current{background-position: 13px -427px;}
+
+/* 右端描点 */
+.lf_menu{ position:fixed; _position:absolute; right:50px; top:305px;}
+.lf_menu2{ position:fixed; _position:absolute; right:50px; top:auto; bottom:130px; display:none;}
+.lf_menu a{ display:block; width:50px; height:50px; background:url(http://hnlogin/news/images/l_menu_bg.png) no-repeat; text-align:center; line-height:75px; margin-bottom:2px; overflow:hidden;}
+.lf_menu a:hover{ color:#fff; text-decoration:none;}
+.lf_menu a.m_rw{ background-position:0 0;}
+.lf_menu a.m_yy{ background-position:0 -52px;}
+.lf_menu a.m_sy{ background-position:0 -104px;}
+.lf_menu a.m_yl{ background-position:0 -156px;}
+.lf_menu a.m_gt{ width:50px; height:30px; background-position:0 -221px; margin-top:13px;}
+.lf_menu a.m_rw:hover{ background-position:-50px 0;}
+.lf_menu a.m_yy:hover{ background-position:-50px -52px;}
+.lf_menu a.m_sy:hover{ background-position:-50px -104px;}
+.lf_menu a.m_yl:hover{ background-position:-50px -156px;}
+.lf_menu a.m_gt:hover{ background-position:0 -251px;}
+
+
+.main{ background:#FFF;  padding:15px 10px 50px 10px;}
+.main_l{ width:880px;}
+.main_r{ width:280px;}
+.banner{ height:90px;}
+.banner img{ width:580px; height:90px;}
+.imgopa8:hover{ opacity:0.8;filter:alpha(opacity=80);}
+.title{ height:30px; padding-bottom:2px; border-bottom:2px solid #ff3300; margin-top:20px;}
+.title h2{ display:block; height:30px; width:180px; background:url(http://hnlogin/news/images/ico-3.png) no-repeat; padding-left:35px; font-size:24px; line-height:28px;}
+.title .h_title{ background-position:5px -260px;}
+.title .web_title{ background-position:5px -302px;}
+.title .hand_title{ background-position:5px -345px;}
+.title .fun_title{ background-position:5px -382px;}
+.tab_title{ border-top:1px solid #cfcece; height:32px;}
+.tab_title a.fl{ display:block; width:84px; text-align:center; font-size:16px; height:30px; line-height:30px; color:#525252; padding-top:3px; margin-top:-1px; margin-right:5px;}
+.tab_title a.current{ background:url(http://hnlogin/news/images/fun_img_title.jpg) no-repeat;}
+.tab_title a.fun_more{display:block; height:30px;  padding-right:12px; line-height:30px; background:url(http://hnlogin/news/images/more_bg.png) right 12px no-repeat; text-align:right; margin:1px 20px 0 0;}
+.hot_g_con{ height:100px; border:1px solid #f0f0f0; overflow:hidden;}
+.hot_g_tab{ width:40px; height:98px; border-right:1px solid #f0f0f0;}
+.hot_g_tab a{ display:block; height:50px; line-height:75px; text-align:center; border-bottom:1px solid #f0f0f0; overflow:hidden;}
+.hot_g_tab a:hover{ background:#fcfcfc; text-decoration:none;}
+.hot_g_tab span{ display:block; width:28px; height:20px; background:url(http://hnlogin/news/images/ico-3.png) no-repeat; left:6px; top:10px;}
+.hot_g_tab span.hand_ico{ background-position:6px -115px;}
+.hot_g_tab span.web_ico{ background-position:4px -165px;}
+.hot_g_tab em{ display:none; width:7px; height:11px; background:url(http://hnlogin/news/images/ico-3.png)0 -214px no-repeat; right:-1px; top:19px;}
+.hot_g_tab a.current,.hot_g_tab a.on{ background:#fcfcfc; color:#ff3300;}
+.hot_g_tab a.current span.hand_ico,.hot_g_tab a.on span.hand_ico{ background-position:6px -140px;}
+.hot_g_tab a.current span.web_ico,.hot_g_tab a.on span.web_ico{ background-position:4px -188px;}
+.hot_g_tab a.current em{ display:block;}
+.hot_g_list{ left:50px; top:0; height:100px; width:1125px;}
+.hot_g_list li{ float:left; display:inline; width:60px; height:100px; text-align:center; margin:10px 0 0 30px;}
+.hot_g_list li img{ width:60px; height:60px;}
+
+
+.hot_news{ height:490px;}
+.con_left{ width:430px;}
+.con_mid{ width:430px; margin-left:20px;}
+.con_right{ width:280px;}
+.hn_ban_box{ width:430px;height:335px;}
+.hn_banner{width:430px; height:300px; overflow:hidden; background:#fff; position:relative;}
+.hn_banner ul{ width:9999px; position:absolute;}
+.hn_banner ul li{ float:left; display:inline; position:relative;}
+.hn_banner ul li img{ width:430px; height:300px;}
+.hn_banner ul li span{background: #000; bottom: 0; height: 73px;left: 0;opacity:0.5;filter:alpha(opacity=50); width: 430px;}
+.hn_banner ul li p{bottom: 0;color: #fff;height:63px; width:400px; padding:10px 15px 0 15px; left: 0; line-height: 20px; overflow: hidden;color:#fff; text-align:left;}
+.hn_banner ul li font{ font:bold 20px/24px "微软雅黑"; display:block;}
+.hn_banner ul li em{ font:normal 14px/28px "微软雅黑"; display:block;}
+.hn_btn_l{ display:block; width:50px; height:50px; background:url(http://hnlogin/news/images/btn_bg.png) 0 0 no-repeat; left:0; top:125px;}
+.hn_btn_r{ display:block; width:50px; height:50px; background:url(http://hnlogin/news/images/btn_bg.png) -56px 0 no-repeat; right:0; top:125px;}
+.hn_btn{ height:25px; padding-top:10px; text-align:center;}
+.hn_btn span{background:#525252;border-radius:6px;cursor:pointer;display:inline-block;height:12px;margin-left:2px;width:12px;}
+.hn_btn span.on{ background:#ff3300; width:30px;}
+.hot_active{width:430px; overflow:hidden;}
+.s_title{ height:30px; border-bottom:1px solid #cfcece;}
+.s_title span{ display:block; height:30px; line-height:30px; padding:0 10px; border-bottom:2px solid #ff3300; font-size:16px; left:0; top:0;}
+.s_title a{ display:block; height:30px;  padding-right:12px; line-height:30px; background:url(http://hnlogin/news/images/more_bg.png) right 12px no-repeat; text-align:right}
+.hot_act_link{ height:110px; margin:15px 0 0 0;}
+.hot_act_link li{ display:inline;}
+.act_l_left{ margin-left:5px;}
+.hot_act_link li a{ display:block;width:205px; height:100px; position:relative;}
+.hot_act_link img{width:205px; height:100px;}
+.hot_act_link li span{background: #000; bottom: 0; height: 20px;left: 0;opacity:0.5;filter:alpha(opacity=50); width: 205px;}
+.hot_act_link li p{bottom: 0;color: #fff;height: 20px;left: 0; line-height: 20px; padding: 0 5px;text-align: center; width: 195px;}
+.hot_act_link i{ display:block; height:20px; line-height:20px; min-width:48px; padding:0 5px; text-align:center; color:#fff; font-style:normal; left:-5px; top:-3px;}
+.red_tj{ background:#ff3300; border-radius:2px;}
+.blue_tj{ background:#0090ff; border-radius:2px;}
+
+.hot_t_box{ height:125px; border-bottom:1px dotted #dddddd; text-align:center;}
+.hot_t_b{ height:28px; width:430px;}
+.htb_b{ font:bold 18px/28px "微软雅黑";  color:#ff4200;}
+.hot_t_s a{ margin:0 2px;}
+.new_h_t{ height:35px;line-height:35px;padding:5px 5px 0 5px; width:417px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+.new_h_t a{ font:bold 16px/30px "微软雅黑";}
+.web_hot_new{ background-position: 0 -449px; text-align:center;}
+.hand_hot_new{background-position: 0 -488px; text-align:center;}
+.new_list_height{ height:140px;}
+.new_list li{ height:28px; *height:26px;  overflow:hidden;}
+.new_list li a{ display:block; height:28px; line-height:28px; *height:26px; *line-height:26px; width:365px; overflow:hidden; white-space:nowrap;text-overflow:ellipsis;  padding-left:20px; font-size:14px; background:url(http://hnlogin/news/images/ico-3.png) 5px -772px no-repeat; float:left;}
+.new_list li a:hover{ background-position:5px -804px; color:#ff3300; padding-left:23px;}
+.new_list li i{ display:block; height:28px; line-height:28px; float:right; color:#9f9f9f; padding-right:5px;}
+.alone_zt_box{ height:263px;}
+.alone_img{ height:120px; overflow:hidden;}
+.alone_img img{ width:280px; height:120px;}
+.alone_img span{background: #000; bottom: 0; height: 30px;left: 0;opacity:0.5;filter:alpha(opacity=50); width: 280px;}
+.alone_img p{bottom: 0;color: #fff;height: 30px;left: 0; line-height: 30px; padding: 0 5px;text-align: center; width: 270px; font-size:14px;}
+.alone_new{ height:143px; background:#f9f9f9; overflow:hidden;}
+.alone_new ul{ background:url(http://hnlogin/news/images/alone_bg.jpg) 12px 0 repeat-y; padding:8px 0 10px 36px; }
+.alone_new ul li{ height:25px; width:240px; position:relative;}
+.alone_new ul li a{ display:block; height:25px; width:210px; overflow:hidden; white-space:nowrap; text-overflow: ellipsis; line-height:25px;}
+.alone_new ul li a:hover{ color:#ff3300;}
+.alone_new ul li span{ display:block; width:36px; height:15px; line-height:12px; background:url(http://hnlogin/news/images/ico-3.png) 0 -542px no-repeat; left:-75px; top:7px;  text-align:center; }
+.alone_new ul li span font{-webkit-transform:scale(0.8); color:#fff; font-size:10px; display:block; width:36px; height:15px;}
+.alone_new ul li.alone_hot{ background:url(http://hnlogin/news/images/ico-3.png) 210px -430px no-repeat;}
+.alone_new ul li.alone_hot a,.alone_new ul li.ative a{ color:#ff3300; padding-left:2px;}
+.alone_new ul li.alone_hot span,.alone_new ul li.ative span{left:-38px;}
+.play_con{ height:150px; overflow:hidden;}
+.play_atv{ width:260px; left:10px; top:7px; height:143px; overflow:hidden; }
+.play_atv ul li{ height:71px; border-bottom:1px dotted #dddddd;}
+.play_atv ul li.even{ border:none;}
+.play_img_txt{ width:190px; height:60px; margin-top:6px;}
+.tq_bt{ width:120px; height:22px; text-align:center; left:90px; top:8px;}
+.tq_bt i{background:#525252;border-radius: 5px;cursor: pointer; display: inline-block; height: 10px; margin:0 3px; width:10px;}
+.tq_bt i.on{ background:#ff3300;}
+.p-img{ width:60px; height:60px; left:0; top:0;}
+.h_game_name{ display:block; height:22px; line-height:22px; width:110px; overflow:hidden; left:70px; top:0; font-size:14px;}
+.h_game_des{ display:block; height:40px; line-height:18px; width:110px; color:#9f9f9f; left:70px; top:24px;}
+.play_btn{width:60px; height:60px; padding-left:10px; background:url(http://hnlogin/news/images/ico-4.png) left 5px no-repeat; margin-top:6px;}
+.play_btn a{ display:block; width:60px; height:60px; background:#fff; text-align:center; line-height:60px; font-size:14px; font-weight:bold; border-radius:3px;}
+.play_btn a:hover{ text-decoration:none; background:#ff3300; color:#fff; width:60px; height:60px;}
+
+
+.web_con{ height:440px; padding-top:10px;}
+.gl_box{}
+.wgl_box{ height:115px; border-bottom:1px solid #cfcece;}
+.wgl_hide{ height:107px; width:380px; left:23px; top:10px; overflow:hidden; }
+.wgl_scroll{ width:999999px;}
+.wgl_scroll li{ float:left; display:inline; text-align:center; width:60px; height:90px; margin: 0 8px; padding-top:10px; position:relative;}
+.wgl_scroll li span{ display:block; width:15px; height:10px; background:url(http://hnlogin/news/images/ico-4.png) -35px -97px no-repeat; left:23px;bottom:-17px;}
+.wgl_scroll li.current{ padding-top:5px;}
+.wgl_scroll li.current span{bottom:-11px;}
+.wgl_scroll li a{ display:block; width:60px; height:90px; }
+.wgl_scroll li a img{width:60px; height:60px;}
+
+.wgl_btn{ width:23px; height:28px; background:url(http://hnlogin/news/images/ico-3.png) no-repeat;}
+.wgl_prev{ background-position:0 -573px; left:0; top:35px;}
+.wgl_next{ background-position:0 -607px; right:0; top:35px;}
+.gl_new{ margin-top:9px; height:196px;}
+.gl_info{ background:#f9f9f9; height:55px; padding:5px;}
+.gl_in_list{ height:55px; background:#fff;}
+.zl_list{ width:210px; left:10px; padding-top:4px; overflow:hidden;}
+.zl_list li{ float:left; display:inline;}
+.zl_list li a{ display:block; width:55px; height:15px; overflow:hidden; padding:0 5px 0 13px; margin:3px 0 4px -4px;background:url(http://hnlogin/news/images/ico-4.png) 0 -56px no-repeat; }
+.web_btn a{width:93px; height:34px; line-height:34px; font-size:14px; text-align:center; color:#fff; border-radius:3px;  top:11px; }
+.game_webs_btn{  background:#0090ff;  left:218px; }
+.web_btn a:hover{ text-decoration:none;}
+.sta_game_btn{ background:#51bf23; left:325px; }
+.zt_title,.zt_title span{border-bottom:0;}
+.zt_info{ height:30px; line-height:30px; padding-left:20px; background:url(http://hnlogin/news/images/ico-3.png) 0 -716px no-repeat; margin-right:10px;}
+.zt_info font{ color:#ff3300;}
+.ser_list_box{ background:#f9f9f9; height:397px;}
+.serlist_tab{ height:38px; background:#f0f0f0;}
+.serlist_tab li{ float:left; display:inline;}
+.serlist_tab li a{ display:block; width:80px; height:32px; border-top:2px solid #f0f0f0; margin:4px 0 0 10px; text-align:center; font-size:14px; line-height:32px; }
+.serlist_tab li a.current{ border-top:2px solid #ff3300; background:#f9f9f9; color:#ff3300;}
+.serlist_con{overflow:hidden;}
+.serlist_con table{ margin:0 auto; margin-top:-1px; }
+.std1{ width:60px;}
+.std2{ width:40px;}
+.std3{ width:80px;}
+.std4{ width:80px;}
+.serlist_con thead td{ height:34px; line-height:34px; color:#ff3300; font-size:14px;}
+.serlist_con td{ height:32px; line-height:32px; border-top:1px dotted #dddddd; text-align:center; font-size:12px; position:relative; }
+.serlist_con tr:first-child td{ border:0;}
+.serlist_con tr.hsl_2 td{ height:80px;}
+.serlist_con tr.ative{ display:block;}
+.w-g-name{ color:#ff3300;}
+.serlist_page{ height:30px; bottom:0; width:280px; }
+.l_page_box{ width:37px; text-align:center; left:124px; top:4px;}
+.serlist_page a{ display:block; width:13px; height:13px; background:url(http://hnlogin/news/images/ico-4.png) no-repeat;}
+.serlist_page a.l_prev_btn{ left:112px; top:7px; background-position:0 -96px;}
+.serlist_page a.l_next_btn{ left:160px; top:7px; background-position:0 -124px;}
+
+.hand_con{ height:520px; padding-top:10px;}
+.hand_nl_box{ height:305px;}
+.hh_title{ height:40px; font:bold 18px/45px "微软雅黑"; text-align:center; width:430px; }
+.hh_title a{color:#ff3300}
+.hg_pc_box{ height:145px; overflow:hidden;}
+.hg_pc_box ul{ width:410px; margin:0 auto; padding-top:5px;}
+.hg_pc_box ul li{ height:65px; overflow:hidden; border-bottom:1px dotted #dddddd; margin-top:5px; }
+.hg_pc_box ul li img{ width:60px; height:60px;}
+.hg_pc_img{}
+.hg_pc_bt{ width:260px; height:28px; line-height:28px; left:70px; top:0; font-size:14px;}
+.hg_pc_btn{ width:260px; height:20px; left:70px; top:30px;}
+.hg_pc_btn a{ display:block; float:left; height:20px; line-height:20px; margin-right:5px; padding:0 12px; border-radius:3px;}
+.hg_pc_btn a:hover{ text-decoration:none; color:#fff;}
+.hg_pc_btn a span.aspan{ left:0; top:-20px; width:50px; height:20px; line-height:20px; text-align:center; font-size:20px; color:#ff0000; opacity:0; filter:alpha(opacity=0);}
+.hg_pc_btn a.on span.aspan{ top:-35px; opacity:1; filter:alpha(opacity=1);}
+
+.hg_pc_btn a span.gpc_sumnum{ left:-1px; top:-27px; width:50px; height:24px; line-height:20px; text-align:center; background:url(http://hnlogin/news/images/qp.png) no-repeat; display:none; color:#525252;}
+.hg_pc_btn a.active span.gpc_sumnum{ display:block;}
+.hg_pc_btn a.hg_btn_red span.gpc_sumnum{ background-position:0 0;}
+.hg_pc_btn a.hg_btn_gree span.gpc_sumnum{ background-position:-55px 0;}
+.hg_pc_btn a.hg_btn_gary span.gpc_sumnum{ background-position:-110px 0;}
+
+.hg_btn_red{ border:1px solid #ff6364;}
+.hg_btn_gree{ border:1px solid #48c45b;}
+.hg_btn_gary{ border:1px solid #909090;}
+.hg_btn_blue{ border:1px solid #0090ff; background:#0090ff; color:#fff;}
+.hg_btn_red:hover{ background:#ff6364;}
+.hg_btn_gree:hover{ background:#48c45b;}
+.hg_btn_gary:hover{ background:#909090;}
+.hd_pf_fs{ width:75px; height:65px; right:0; top:0; background:url(http://hnlogin/news/images/ico-4.png) 0 9px no-repeat;}
+.hd_plfs{ right:0; top:0; border:1px dashed #a6d8ff; border-radius:3px; width:60px; height:60px;}
+.hd_fenshu{ display:block; text-align:center; height:40px; width:60px; line-height:40px; font-size:24px; color:#0090ff; text-align:center;}
+.hd_pfs_fot{ bottom:-1px; left:-1px; width:62px; height:18px; line-height:18px; border-radius:0 0 3px 3px; background:#0090ff; color:#fff; text-align:center;}
+.hand_gl_box{ background:#f9f9f9; width:84px; height:479px;  margin-top:1px;}
+.hgl_list{ padding-top:15px;}
+.hgl_list li{height:31px; line-height:31px; width:84px; position:relative;}
+.hgl_list li a{ display:block; height:31px; line-height:31px; width:84px; text-align:center; border-radius:3px; background:url(http://hnlogin/news/images/ico-4.png) center -137px no-repeat; overflow:hidden;}
+.hgl_list li.current a{ background:#ff3300; color:#fff; text-decoration:none;}
+.hgl_list li span{ display:none; width:8px; height:8px; position:absolute; background:url(http://hnlogin/news/images/ico-3.png) 0 -753px no-repeat; right:-7px; top:13px;}
+.hgl_list li.current span{ display:block;}
+
+.hgll_box{ padding-top:15px; width:330px; right:0; top:0;}
+.hgll_tj_img img{ width:330px; height:80px;}
+.hgl_new_list{ height:308px; overflow:hidden;}
+.hgl_new_list li a{ width:305px;}
+.hsl_box{ height:477px;}
+.hglist{ margin-top:1px; height:480px; background:#f9f9f9}
+.hglh_bg{ height:36px; width:280px; background:#f0f0f0; left:0; top:0;}
+.hglist table{ width:260px; left:10px; top:0;}
+.hglist table thead td{ height:36px; color:#ff3300;}
+.hsl_img{ left:10px; top:10px;}
+.hsl_name{ display:block; width:175px; height:22px; line-height:22px; left:80px; top:10px; text-align:left; font-size:14px;}
+.hsl_des{ display:block; width:175px; height:22px; line-height:22px; left:80px; top:32px; text-align:left; color:#9f9f9f;}
+.hsl_info{ display:block; width:175px; height:22px; line-height:22px; left:80px; top:54px; text-align:left; color:#9f9f9f;}
+.hsl_info a{ display:block; width:20px; height:22px; background:url(http://hnlogin/news/images/ico-4.png) no-repeat; float:left; margin:0 3px;}
+.hsl_info a.hsl_android{ background-position:0 -355px; }
+.hsl_info a.hsl_ios{ background-position:0 -392px;}
+
+.fun_con{ height:580px;padding-top:10px;}
+.hkan_box{ height:212px; overflow:hidden;}
+.game_know{ height:280px; overflow:hidden;}
+.anime_hot{height:308px; overflow:hidden;}
+.hkan_con li{ float:left; display:inline; position:relative; margin:10px 5px 5px 8px;}
+.hkan_rcon li{ margin:10px 5px 5px 5px;}
+.hkan_con a{ display:block; width:130px; height:90px; overflow:hidden;}
+.hkan_con a img{ width:130px; height:90px;}
+.hkan_con span{ background:#000; opacity:0.5;filter:alpha(opacity=50); height:20px; width:130px; left:0; bottom:0;}
+.hkan_con p{ text-align:center; color:#fff;padding:0 5px; left:0; bottom:0; height:20px; line-height:20px; width:120px; }
+.hkan_btn{ display:block; width:75px; height:90px; line-height:90px; background:#f6f6f6 url(http://hnlogin/news/images/ico-4.png) 8px -182px no-repeat; right:6px; top:115px; font-size:16px; padding-left:55px;}
+.hkan_btn:hover{background:#ffa800 url(http://hnlogin/news/images/ico-4.png) 8px -260px no-repeat;  color:#FFF; text-decoration:none;}
+.week_box{ height:90px; background:#f6f6f6;}
+.week_menu{ height:28px; background:#f0f0f0; margin-top:8px;}
+.week_menu a{ display:block; width:61px; height:28px; line-height:28px; line-height:28px; text-align:center; font-size:14px; float:left; }
+.week_menu a:hover{ text-decoration:none;background:#0090ff; color:#fff;}
+.week_menu a.current{ background:#0090ff; color:#fff;}
+.week_c_list{ padding-top:5px;}
+.week_c_list li{ float:left; display:inline;}
+.week_c_list li a{ display:block; width:125px; height:20px; line-height:20px; margin-top:5px; margin-left:6px; padding-left:10px; background:url(http://hnlogin/news/images/ico-3.png) 0 -777px no-repeat }
+.week_c_list li a:hover{ color:#ff3300; text-decoration:none; background-position: 0 -809px;}
+.happ_box{ height:345px; overflow:hidden;}
+.happ_box li{ float:right; display:block; position:relative; margin:15px 0 0 0;}
+.happ_box a{ display:block; width:275px; height:100px; overflow:hidden;}
+.happ_box a img{ width:275px; height:100px;}
+.happ_box span{ background:#000; opacity:0.5;filter:alpha(opacity=50);height:20px; width:275px; left:0; bottom:0;}
+.happ_box p{ text-align:center; color:#fff;padding:0 5px;  left:0; bottom:0; height:20px; line-height:20px; width:265px; }
+.ht_title{ height:50px; line-height:50px; font-size:18px; text-align:center; margin:5px 0;}
+.ht_img img{ height:90px; width:280px;}
+
+.fun_img_con{ height:330px; overflow:hidden;}
+.funimg_ul li{ float:left; display:inline; position:relative; margin:10px 8px 5px 8px;}
+.funimg_ul a{ display:block; width:180px; height:150px; overflow:hidden; position:relative;}
+.funimg_ul a img{ width:180px; height:150px;}
+.funimg_ul span{ background:#000; opacity:0.5;filter:alpha(opacity=50); height:20px; width:180px; left:0; bottom:0;}
+.funimg_ul p{ text-align:center; color:#fff;padding:0 5px;  left:0; bottom:0; height:20px; line-height:20px; width:170px; }
+
+
+
+
+.bread_box{ height:30px; line-height:30px; border-bottom:2px solid #ff3300; background:url(http://hnlogin/news/images/ico-4.png) 5px -420px no-repeat;}
+.bread{ margin-left:28px; font-size:14px; color:#9f9f9f}
+.new_list_box li{ height:170px; border-top:1px dotted #dddddd; position:relative;}
+.new_list_box li:first-child{ border:0;}
+.new_list_box li.nolist{ text-align:center; height:224px;}
+.new_b_img{ left:10px; top:20px;}
+.new_b_img img{ width:200px; height:130px;}
+.new_name{ font-size:20px; left:230px; top:15px; width:635px; height:30px; line-height:30px;}
+.new_info{ left:230px; top:48px; width:635px; height:25px; line-height:25px; color:#9f9f9f;}
+.new_info span{ display:block; float:left; padding-left:15px; background:url(http://hnlogin/news/images/ico-4.png) no-repeat; margin-right:20px;}
+.new_info span.l_source{ background-position:-5px -448px;}
+.new_info span.l_author{ background-position:-5px -476px;}
+.new_info span.l_time{ background-position:-5px -502px;}
+.new_des{ width:635px; height:60px; line-height:28px; left:230px; top:75px; font-size:14px; overflow:hidden;}
+.new_bq{ width:550px; height:22px; line-height:22px; color:#9f9f9f; left:230px; top:133px; padding-left:15px;  background:url(http://hnlogin/news/images/ico-4.png) -5px -531px no-repeat;}
+.new_golink{ display:block; width:60px; line-height:20px; line-height:20px; color:#fff; text-align:center; left:810px; top:132px; background:#525252; border-radius:2px;}
+.new_golink:hover{ background:#ff3300;color:#fff; text-decoration:none;}
+#pages{ text-align:center; height:32px; width:880px;}
+#pages a,#pages span{ display:inline-block; height:29px; line-height:29px; border:1px solid #cfcece; padding:0 12px; margin:0 5px; border-radius:2px;}
+#pages span{ background:#ff3300; border:1px solid #ff3300; color:#fff;}
+#pages a:hover{ color:#ff3300; border:1px solid #ff3300; text-decoration:none;}
+#pages ul{ float:right;}
+#pages li{ float:left;}
+.list_ban{ margin-top:45px;}
+.list_ban img{ width:280px; height:280px;}
+
+.article_box{}
+.art_top{ padding:20px 10px 10px 10px; border-bottom:1px dotted #dddddd; text-align:center;}
+.art{ font-size:22px;}
+.art_top .new_info{}
+.art_info{width:880px; padding-top:8px;}
+.art_info span{ float:none; display:inline-block; }
+.collent{ display:inline-block; color:#0090ff;}
+.art_con{  margin:0 auto; font-size:16px; line-height:32px; width:760px; padding:10px 40px 20px 40px; overflow:hidden; }
+.bd_shark{ height:33px; width:230px; margin:20px 0 0 290px;}
+.art_sx_tbox{ height:80px; border-top:1px dotted #dddddd;}
+.art_sx_tbox p{ height:22px; line-height:22px; color:#9f9f9f; font-size:14px; background:url(http://hnlogin/news/images/ico-4.png) no-repeat; padding-left:20px;}
+.art_sx_tbox p.art_prev{ margin:15px 0 0 35px; background-position:0 -553px;}
+.art_sx_tbox p.art_next{margin:5px 0 0 35px; background-position:0 -579px;}
+.related{ height:45px; line-height:45px; font-size:18px; padding-left:10px; border-bottom:1px solid #cfcece;}
+.other_new_list{ padding-top:10px; height:140px;}
+.other_new_list li{ width:430px; float:left; margin:0 5px; display:inline;}
+.other_new_list li a{ width:345px;}
+.other_new_list li i{ margin-right:20px;}
+.comments_box{}
+.comments_title{height:45px; line-height:45px; font-size:18px; padding-left:10px; border-bottom:2px solid #ff3300;}
+.comment{ width:858px; margin:0 auto; margin-top:15px;}
+
+.sma_tb{ width:430px; height:460px; overflow:hidden; }
+.yxzd_t_box{ left:0; top:10px;}
+.dmrd_t_box{ right:0; top:10px;}
+.kxyk_t_box{ left:0; top:480px;}
+.htzz_t_box{ right:0; top:480px;}
+
+
+
+.footer{ background:#333333;  padding-top:30px; padding-bottom:20px; color: #888888;}
+.friendlink{ background:#2c2c2c; border-radius:3px; padding:25px 5px 25px 20px; overflow:hidden; }
+.flink_l{ width:80px;}
+.fl_txt{ display:block; width:60px; height:20px; text-align:center; line-height:20px; background:#202020; color:#888888;}
+.flink_r{ width:1050px; margin-top:-10px;}
+.flink_r a{ color:#888888; margin:10px 10px 0 10px; white-space:nowrap; display:block; float:left;}
+
+.footer_info{ padding:15px 0 0 10px;}
+.footer_con{ padding:0 0 0 178px; margin-top:-10px;}
+.footer_info p { line-height:25px;}
+.footer_info p img.footer_wx {margin-right:17px;}
+.footer_info p.f_p1 { padding-top: 10px;}
+.f_p1 a {padding: 0 10px 0 0;}
+.footer_info a {color: #888888;}
+.footer_info a:hover {text-decoration: underline;}
+
+/* 畅言自定义样式 */
+.xinqing{ width:580px; height:175px; overflow:hidden; margin:0 auto;}
+.article_box #cyEmoji .emoji-hover{border:0; border-radius:0;box-shadow:0 0 0 #ccc;}
+.article_box #cyEmoji p{ font-size:12px;}
+.article_box #cyEmoji .emoji-tip{ border:0; height:0; padding:0;}
+.article_box #cyEmoji .emoji-list{ margin:0;}
+#changyan_floatbar_wrapper{display:none}
+.sum-left-w{width:800px}
+.article_box #SOHUCS #SOHU_MAIN #powerby_sohu{ display:none !important;}

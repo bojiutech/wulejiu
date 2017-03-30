@@ -1,0 +1,264 @@
+﻿/* 公共 */
+html,body,div,span,img,a,table,th,td,ul,li,dl,dt,dd,from,p,h1,h2,h3,h4,h5,h6 { padding: 0; margin: 0;border:none; }
+div, form, img, ul, ol, li, dl, dt, dd { margin: 0; padding: 0; border: 0; }
+input { vertical-align: middle; font-family: Geneva, Arial, Helvetica, sans-serif,"微软雅黑", 宋体; font-size: 12px; }
+input[type="text"], input[type="password"] { vertical-align: middle; font-family: Geneva, Arial, Helvetica, sans-serif,"微软雅黑", 宋体; font-size: 12px; border: 1px solid #aaccee;padding: 1px 0 1px 1px; }
+select { vertical-align: middle; font-family: Geneva, Arial, Helvetica, sans-serif,"微软雅黑", 宋体; font-size: 12px; border: 1px solid #aaccee; }
+textarea { vertical-align: middle; font-family: Geneva, Arial, Helvetica, sans-serif,"微软雅黑", 宋体; border: 1px solid #aaccee; }
+ul { padding: 0; margin: 0; }
+ul li { list-style: none; list-style-type: none; }
+a img { border: none; }
+table { border-collapse: collapse; border-cellpadding: 0px; border-spacing: 0px; }
+body { font-family: Geneva, Arial, Helvetica, sans-serif,"微软雅黑",宋体; font-size: 12px; background-image: url(bg.jpg); background-repeat: repeat-x; }
+h1 { font-size: 16px; font-weight: bold; }
+h2 { font-size: 14px; font-weight: bold; }
+h3 { font-size: 12px; font-weight: bold; }
+h4 { font-size: 11px; font-weight: bold; }
+h5 { font-size: 10px; font-weight: bold; }
+h6 { font-size: 9px; font-weight: bold; }
+.clear { clear: both; height: 0px; line-height: 0px; border: 0px; font-size: 0px; _height: 0px; }
+a, a:link, a:visited { text-decoration: none; color: #055cad; }
+a:hover, a:active { text-decoration: none; color: #055cad; text-decoration: underline; }
+.imeclose{ ime-mode:disabled;}
+.redstar{ color:red; font-size:13px; margin-left:5px; font-family:"宋体";}
+.hrefColor{color:Blue;font-weight:bold;}
+
+/* 布局 */
+
+/* 头部 */
+#top {width: 99%; height:90px; position:relative; }
+#logo{
+	position:absolute;
+	top:10px;
+	left:40px;
+}
+#info { padding-right: 65px; padding-top: 5px; padding-left: 10px; }
+.date { padding:10px 0 0 406px; }
+.title { font-size:12px; font-weight:bold; position:absolute; top:55px;left:42px; }
+
+/* 列表页面主体 */
+#content { margin-top:17px;+margin-top:17px;padding: 0px 0px 0 15px; }
+#content #local { height: 28px; padding-top:5px;border-top:1px solid #aaccee; /*text-indent:355px;*/ }
+.datalist { text-align: center; padding-top: 10px; padding-bottom: 6px; background-image: url(position_04.gif); background-position: left bottom; background-repeat: repeat-x; }
+.datalist #tbContent { border: 1px solid #aaccee; border-collapse: collapse; width: 99.5%; }
+.datalist #tbContent #tbdDataList tr{ cursor:pointer; background-color:Transparent;}
+.datalist #tbContent #tbdDataList tr:hover{ cursor:pointer; background-color:#d9f1f3;}
+.datalist #tbContent td { border: 1px solid #aaccee; padding: 5px; color:Black;}
+.datalist table th { border: 1px solid #aaccee; padding: 4px;color:#656565;white-space:nowrap;  }/*非可排序的th，黑色*/
+.datalist table th[axis]{ background-image:none; color:Black;  white-space:nowrap;}
+.datalist table th[axis]:hover{ background-image:url(/Analy/Images/Analy/th.gif); background-repeat:repeat-x; cursor:pointer; white-space:nowrap; color:Black;}/*可排序的th，颜色稍浅*/
+.datalist .pager { padding-top: 5px; }
+.datalist .pager a{ display:inline-block;border:1px solid #65acd6; padding:2px; margin:1px;}
+.datalist .search { text-align: right; margin-bottom: 4px;width:65%; float:left; padding:2px 45px 2px 0px; height:16px; line-height:16px;}
+.datalist .action{ float:left; width:30%; margin-bottom: 4px; text-align:left; padding:2px 0px; height:16px; line-height:16px;}
+.datalist .action>span,.datalist .search>span{ display:inline; border:1px solid #65acd6; padding:1px 6px; cursor:pointer; margin-left:2px;}
+.datalist .action>span:hover,.datalist .search>span:hover{ display:inline; border:1px solid #65acd6; padding:1px 6px; cursor:pointer; margin-left:2px; background-color:#5cc3af; color:White;}
+
+/* 搜索和清空按钮 */
+.btnSearch { background-image: url(btn_submit.gif); background-repeat: no-repeat; width: 48px; height: 20px; border: 0px; color: White; font-weight: bold; padding-left: 3px; padding-top: 1px; }
+.btnReset { background-image: url(btn_reset.gif); background-repeat: no-repeat; width: 48px; height: 20px; border: 0px; color: White; font-weight: bold; padding-left: 3px; padding-top: 1px; }
+
+/* tabs表单页面主体 */
+#tabs { padding: 10px 0 6px 0;  }
+
+#tabs .tab { height: 22px;z-index:-10; }
+#tabs .tab ul { list-style-type: none; top: 0; left: 0; overflow: hidden; }
+#tabs .tab ul li { float: left; display: block; cursor: pointer; text-align: center; line-height: 21px; height: 21px; padding-left: 5px; padding-right: 5px;font-weight:bold; }
+#tabs .tab ul li.active { background: #d9f0ff; float: left; display: inline-block; cursor: pointer; text-align: center; line-height: 21px; height: 21px; padding-left: 5px; padding-right: 5px; border-left: 1px solid #65acd6; border-top: 1px solid #65acd6; border-right: 1px solid #65acd6; }
+#tabs .tab ul li.tabinfo{ color:Red;float: left; display:inline-block; text-align: center; line-height: 21px; height: 21px; padding-left: 5px; padding-right: 5px; border:0px; font-weight:bold; cursor:default;}
+
+#tabs .forms { clear: both; margin-top: -1px; border-top: 1px solid #65acd6;z-index:-15; }
+#tabs .forms ul.formShow { display: block; }
+#tabs .forms ul.formHidden { display: none; }
+#tabs .forms ul.formHidden li table, #tabs .forms ul.formShow li table { margin: 5px auto 5px auto; border: 1px dotted #888877; border-collapse: collapse; width:95%; background-color:#f7f7f7; }
+#tabs .forms ul.formHidden li table th,#tabs .forms ul.formHidden li table td, #tabs .forms ul.formShow li table td,#tabs .forms ul.formShow li table th { border: 1px dotted #888877; padding: 3px; }
+
+#btns{ text-align:center; margin-top:10px; }
+
+/* 子表单Tab */
+#tabs .subtab { height: 22px; z-index:-9; margin-left:10px; margin-top:15px;}
+#tabs .subtab ul{list-style-type: none; top: 0; left: 0; overflow: hidden;}
+#tabs .subtab ul li { float: left; display: block; cursor: pointer; text-align: center; line-height: 21px; height: 21px; padding-left: 5px; padding-right: 5px; font-weight:bold; }
+#tabs .subtab ul li.subactive { background: #eff8ff; float: left; display:inline-block; cursor: pointer; text-align: center; line-height: 21px; height: 21px; padding-left: 5px; padding-right: 5px; border-left: 1px solid #65acd6; border-top: 1px solid #65acd6; border-right: 1px solid #65acd6; font-weight:bold; }
+
+#tabs .subforms { clear: both; margin-top: -1px; border: 1px solid #65acd6;z-index:-15; margin-left:10px; margin-right:5px; margin-bottom:5px; }
+#tabs .subforms ul.subformshow { display: block; }
+#tabs .subforms ul.subformhidden { display: none; }
+#tabs .subforms ul.subformhidden li table, #tabs .subforms ul.subformshow li table { margin: 5px auto 5px auto; border: 1px solid #aaccee; border-collapse: collapse; width:95%; }
+#tabs .subforms ul.subformhidden li table th,#tabs .subforms ul.subformhidden li table td, #tabs .forms ul.subformshow li table td,#tabs .forms ul.subformshow li table th { border: 1px solid #aaccee; padding: 3px; }
+
+/* 提交和取消按钮 */
+.btnPublic{ background-image:url(btn_public.gif); background-repeat:no-repeat; width:60px; height:27px; border:0px; color:White; font-weight:bold; }
+
+/* 简约表单页面 */
+#content #form{ }
+#content #form table{ margin:5px auto 5px auto; }
+#content #form table th,#content #form table td{ padding:5px; }
+
+/* 后台菜单样式开始 */
+#nav{position:absolute; left:40px;top:76px;}
+/*** ESSENTIAL STYLES ***/
+.sf-menu, .sf-menu * {
+	margin:			0;
+	padding:		0;
+	list-style:		none;
+}
+.sf-menu {
+	line-height:	1.0;
+}
+.sf-menu ul {
+	position:		absolute;
+	top:			-999em;
+	width:			11em; /* left offset of submenus need to match (see below) */
+}
+.sf-menu ul li {
+	width:			100%;
+}
+.sf-menu li:hover {
+	visibility:		inherit; /* fixes IE7 'sticky bug' */
+}
+.sf-menu li {
+	float:			left;
+	position:		relative;
+}
+.sf-menu a {
+	display:		block;
+	position:		relative;
+}
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+	left:			0;
+	top:			2.7em; /* match top ul list item height 定义子菜单与导航菜单的上下距离，改小则子菜单距离导航越近 */
+	z-index:		99;
+}
+ul.sf-menu li:hover li ul,
+ul.sf-menu li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul {
+	left:			11em; /* match ul width */
+	top:			0;
+}
+ul.sf-menu li li:hover li ul,
+ul.sf-menu li li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li li:hover ul,
+ul.sf-menu li li li.sfHover ul {
+	left:			11em; /* match ul width */
+	top:			0;
+}
+
+
+/*** DEMO SKIN ***/
+.sf-menu {
+	float:			left;
+	margin-bottom:	1em;
+}
+.sf-menu a {
+	border-left:	1px solid #BDD2FF; /* 菜单左侧边框线条样式（应用于所有级别菜单） */
+	border-top:		1px solid #CFDEFF; /* 菜单上边框线条样式 （应用于所有级别菜单） */
+	padding: 		.5em 1em; /* 菜单的高度和宽度定义 */
+	text-decoration:none;
+}
+.sf-menu a /*, .sf-menu a:visited */ { /* visited pseudo selector so IE6 applies text colour 菜单文字的样式（颜色、字体、大小） */
+	color:			#000;
+	font-weight:	bold;
+	font-size:		14px;
+	font-family:	Geneva, Arial, Helvetica, sans-serif,"微软雅黑", "宋体";
+}
+.sf-menu li {
+	margin-right:1px;
+}
+.sf-menu li li {
+	background:		#e7f6ff; /* 二级子菜单背景颜色 */
+}
+.sf-menu li li li {
+	background:		#e7f6ff; /* 三级子菜单背景颜色 */
+}
+
+.sf-menu li a,.sf-menu li a:hover{
+	background-image:url(li_bg.gif);
+	background-repeat:repeat-x;
+	background-position:0 0;
+	border:1px solid #6d98b4;
+	color:#fff;
+}
+.sf-menu li a:hover{
+	background-position:0 -29px;
+	border:1px solid #6d98b4;
+	color:#000;
+}
+.sf-menu li ul li a,.sf-menu li ul li a:hover /*,.sf-menu li ul li a:visited*/{
+	background:none;
+	border:1px solid #a2c6dd;
+	border-top:none;
+	font-size:12px;
+	line-height:16px;
+	color:#000;
+}
+.sf-menu li li a:hover{
+	background:#e7f6ff;
+}
+
+.sf-menu li:hover, .sf-menu li.sfHover,
+.sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+	background:		#cbe9fb; /* 鼠标停留在菜单上时改变的背景色（应用于所有级别菜单） */
+	outline:		0;
+}
+
+/*** arrows **/
+.sf-menu a.sf-with-ul {
+	padding-right: 	2.25em;
+	min-width:		1px; /* trigger IE7 hasLayout so spans position accurately */
+}
+.sf-sub-indicator {
+	position:		absolute;
+	display:		block;
+	right:			.75em;
+	top:			1.05em; /* IE6 only */
+	width:			10px;
+	height:			10px;
+	text-indent: 	-999em;
+	overflow:		hidden;
+	background:		url('/Analy/images/Analy/arrows.png') no-repeat -10px -100px; /* 8-bit indexed alpha png. IE6 gets solid image only */
+}
+a > .sf-sub-indicator {  /* give all except IE6 the correct values */
+	top:			.58em;/* 箭头的居中程度，改小则箭头上移，改大则下移 */
+	background-position: 0 -100px; /* use translucent arrow for modern browsers*/
+}
+/* apply hovers to modern browsers */
+a:focus > .sf-sub-indicator,
+a:hover > .sf-sub-indicator,
+a:active > .sf-sub-indicator,
+li:hover > a > .sf-sub-indicator,
+li.sfHover > a > .sf-sub-indicator {
+	background-position: -10px -100px; /* arrow hovers for modern browsers*/
+}
+
+/* point right for anchors in subs */
+.sf-menu ul .sf-sub-indicator { background-position:  -10px 0; }
+.sf-menu ul a > .sf-sub-indicator { background-position:  0 0; }
+/* apply hovers to modern browsers */
+.sf-menu ul a:focus > .sf-sub-indicator,
+.sf-menu ul a:hover > .sf-sub-indicator,
+.sf-menu ul a:active > .sf-sub-indicator,
+.sf-menu ul li:hover > a > .sf-sub-indicator,
+.sf-menu ul li.sfHover > a > .sf-sub-indicator {
+	background-position: -10px 0; /* arrow hovers for modern browsers*/
+}
+
+/*** shadows for all but IE6 ***/
+.sf-shadow ul {
+	background:	url('/Analy/images/Analy/shadow.png') no-repeat bottom right;
+	padding: 0 8px 9px 0;
+	-moz-border-radius-bottomleft: 17px;
+	-moz-border-radius-topright: 17px;
+	-webkit-border-top-right-radius: 17px;
+	-webkit-border-bottom-left-radius: 17px;
+}
+.sf-shadow ul.sf-shadow-off {
+	background: transparent;
+}
+/* 后台菜单样式结束 */

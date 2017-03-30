@@ -1,0 +1,90 @@
+@charset "gb2312";
+
+body{ margin:0; padding:0; color:#000; background:#dcdcdc url(http://hn_img/images/login/bodyBg.jpg) repeat-x top; font-family:Tahoma;font-size:12px; }
+ul,li,h1,h2,h3,h4,h5,h6,div,form,input,dl,dt,dd,ol,p,td{ margin:0; padding:0;}
+ul,li{list-style-image:none;list-style-type:none;}
+i{ font-style:normal;}
+a{text-decoration:none;color:#3366CC; }
+a:hover{ text-decoration:underline; color:#FF6600; }
+img{ border:0;}
+.h_1px{ height:1px; line-height:1px; clear:both; overflow:hidden;}
+.h_8px{ height:8px; line-height:8px; clear:both; overflow:hidden;}
+.w960{ width:960px; margin:0 auto;}
+.top{ padding-top:10px; position:relative; height:130px; position:relative;}
+.top .logo{ position:absolute; top:40px;}
+
+.Left{ float:left; width:550px; padding-top:1px;display:inline; }
+
+
+.Right{ float:right; width:338px;  padding:0 1px 2px 1px; display:inline; margin-right:30px;}
+.Tnav{ float:right; }
+.Tnav li{ float:left;   padding:0 25px 10px 0; }
+.Tnav .R{ }
+.Tnav .R a{background: url(http://hn_img/images/login/home.gif) no-repeat top left; padding:0px 0 0 20px; height:20px; line-height:20px; color:#c1c2c3;}
+.Tnav .R a:hover{ background-position:0 -20px;color:#414141; text-decoration:none;}
+
+
+.loginBox{ width:325px; clear:both; overflow:hidden;}
+.loginBox-t{ background:url(http://hn_img/images/login/loginBox.gif) no-repeat; width:100%;}
+.loginBox-l{ clear:both;background:url(http://hn_img/images/login/loginBox.gif) -325px 0 repeat-y; float:left; width:325px;}
+.loginBox-b{ clear:both; background:url(http://hn_img/images/login/loginBox.gif) no-repeat 0 -47px; width:325px; height:13px; overflow:hidden;}
+.loginBox  h2{ font-size:14px; float:left;  }
+.loginBox  h2 b{float:left; height:36px; width:178px; text-align:center; line-height:36px; overflow:hidden; text-decoration:none; color:#070707; font-family:Microsoft YaHei; font-size:20px;  font-weight:normal; margin-top:10px;}
+
+
+.loginBox  .lList{ clear:both; width:250px; float:left; padding-top:10px; display:inline; margin:0 0 0 50px; }
+.loginBox  .lList li{ clear:both; padding-bottom:10px; position:relative; display:block; width:250px; float:left; }
+.loginBox  .TisW{ color:#b20000; font-size:12px; }
+
+.lList b{ width:14px; height:16px;  position:absolute; background:url(http://hn_img/images/login/loginIco.gif) no-repeat; top:8px; left:10px; }
+.lList b.userName{ background-position:0 -40px; }
+.lList .onFocus b.userName{ background-position:-20px -40px;}
+.lList b.passWord{ background-position:0 -20px; }
+.lList .onFocus b.passWord{ background-position:-20px -20px;}
+.lList b.userTel{ background-position:0 -60px; }
+.lList .onFocus b.userTel{ background-position:-20px -60px;}
+.lList b.passTxt{ background-position:0 0px; }
+.lList .onFocus b.passTxt{ background-position:-20px 0px;}
+
+.lList .li4 input{ width:90px;}
+.lList input{ background:url(http://hn_img/images/login/inputBg.gif) no-repeat 0 -40px; border:1px solid #969696; padding:0 4px; font-size:14px; height:30px; line-height:30px; float:left; width:180px; padding-left:30px; overflow:hidden; cursor:pointer;}
+.lList .onFocus input{ background-position:0 0px; cursor:default;}
+.lList label{ position:absolute; display:block; top:0; left:30px; height:30px; line-height:32px; overflow:hidden; color:#c1c1c1; cursor:pointer;}
+.lList .onFocus label{ display:none;}
+
+.lList li .tishi{ font-size:12px; width:215px; padding-left:4px; height:26px; line-height:22px; position:absolute; top:-20px; right:29px; color:#600; background:url(http://hn_img/images/newIndex/login/tishibg.gif) left bottom no-repeat; display:none;}
+
+.ADimg{ width:430px; height:330px; overflow:hidden;}
+.ADimg_list{width:800%;}
+.ADimg a{float:left;}
+.ADbut { clear:both; float:left; height:60px; display:inline;  margin:30px 0 0 160px;  }
+.ADbut a{ background:url(http://hn_img/images/login/loginIco.gif) no-repeat 0 -80px; width:16px; height:16px; float:left; display:inline; margin:0 2px; overflow:hidden;}
+.ADbut a.selected{ background-position:-20px -80px; cursor:default;}
+
+
+.Right  .lList li .tishi .close{ position:absolute; top:1px; right:1px; _right:0px; cursor:pointer;}
+
+.Right  .lList .But{}
+.Right  .lList .But button{ float:left; width:88px; height:32px; cursor:pointer; background:url(http://hn_img/images/login/loginBut.gif) no-repeat; border:none;}
+.Right  .lList .But button:hover{ background-position:0 -40px;}
+.Right  .lList .But span{float:left; line-height:32px;}
+.Right  .lList .But span a{ margin:0 5px;}
+.Right  .register{ clear:both; padding: 15px 20px 20px 20px; line-height:24px; width:70%; margin:0 auto;}
+
+.register{ text-align:right; color:#76777B;}
+.register i{ color:#cdcdcd; margin:0 5px;}
+.attention{color:#404040; line-height:40px;}
+.attention a{ margin:0 5px;}
+
+.another{ clear:both;background:url(http://hn_img/images/login/loginIco.gif) repeat-x 0 -100px; padding-top:20px; width:83%;  margin:0 auto; overflow:hidden;}
+.another a{ background-image:url(http://hn_img/images/login/qqsina.gif) ; background-repeat:no-repeat;width:118px;  height:24px; line-height:24px;float:left; border:1px solid #ddd; color:#666; display:inline; overflow:hidden;}
+.another a:hover{ border:1px solid #b7b3b3; text-decoration:none; color:#666;}
+.qq{ text-indent:25px; background-position:0 0; margin-left:10px; }
+.sina{ background-position:-132px 0;text-indent:25px;margin-left:10px;}
+
+
+.footer{ clear:both; background:url(http://hn_img/images/login/footerBg.gif) repeat-x 0 0px;text-align:right; line-height:20px; color:#b0b0b0;padding-top:15px; font-family:SimSun;  height:65px; margin-top:10px; }
+.footer .comp{float:left; text-align:left; }
+.footer .comp a{color:#3E3E3E; margin:0 0px;}
+.footer .Zf{float:right;}
+ 

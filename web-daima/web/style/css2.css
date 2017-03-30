@@ -1,0 +1,34 @@
+@charset "utf-8";
+body { margin:0; padding:0; font-size:14px; color:#506f9d; }
+.Ma-Box{ width:750px; height:auto; margin:0 auto; background-image:url(/images/tzs_02.jpg); width:672px; height:533px; margin:0px auto; padding:0px; background-repeat:no-repeat; background-position:top; padding-top:270px;}
+
+.Ma-Time{ }
+.div_title{    padding-left:20px;color:#fff; font-size:20px; width:380px;  text-align:left; float:left; margin:0px auto;padding:20px 0px 0px 0px; overflow:hidden;}
+.div_titleb{  color:#fff; font-size:20px; width:190px; float:left;margin:0px auto; overflow:hidden}
+.s_num{ color:#ffff00; font-size:20px}
+.csButton{	width:126px;	height:44px;	position:absolute;left:613px;	top:24px;}
+.csButton img{ border:0;}
+.csButton a{ width:126px;height:44px; display:block;}
+.Ma-Intr{  width:500px;}
+.Ma-Intr ul{ width:500px;margin:0; padding:0; color:#004476; margin-top:8px;  margin-left:220px;}
+.Ma-Intr ul li{margin:0px;padding:0px;list-style-type: none; padding-left:0px;  width:200px; }
+.Ma-Intr ul li span{margin:0px;padding:0px; display:block; width:180px; height:30px;  float:left;  color:#edfa39; font-size:16px; font-weight:700;}
+.Ma-Intr ul li strong{  margin:0px;padding:0px; color:#fff; font-size:13px}
+.ma-Content{width:610px; margin:0 auto; line-height:22px; padding:10px 20px;  font-size:14px; font-family:500;}
+.ma-Content h5{ margin:0; padding:5px 0 2px 0; font-size:16px; font-weight:bold;} 
+.ma-Content h6{ margin:0; padding:5px 0 2px ; font-size:16px; font-weight:bold; clear:both; border-bottom:1px dotted #737d84;}
+.ma-Content p{ margin:0; padding:5px 0 7px 0;}
+.ma-Content img{ float:left; margin:5px 30px 15px 0;}
+.ma-Content table{  border-left:1px solid #c0d8de; border-top:1px solid #c0d8de;}
+.ma-Content table th{ background:url(/images/table-img.jpg) repeat-x; border-right:1px solid #c0d8de; border-bottom:1px solid #c0d8de;height:26px; text-align:center; }
+.ma-Content table td{  border-right:1px solid #c0d8de; border-bottom:1px solid #c0d8de; height:23px; text-align:center; }
+.tdbg{ background-color:#ebfbfa;}
+.textColor{ color:#FF0000;}
+.but_01{ background-image:url(/images/cs_01.png); width:172px; height:101px; border:0px;}
+.but_02{ background-image:url(/images/ts_01.png); width:172px; height:101px; border:0px;}
+.msg{ color:Red; font-weight:bolder; font-size:14px;}
+
+.main{ background-image:url(/images/tzs_02.jpg); width:966px; height:499px; margin:0px auto; padding:0px; background-repeat:no-repeat; background-position:top; padding-top:270px;  overflow:hidden; }
+.content{  float:left;color:#fff;  text-align:left; width:410px; overflow:hidden;  padding:5px; padding-left:90px; overflow:hidden; margin:0px;}
+.contentbm{ color:#fff;  text-align:right; width:680px; overflow:hidden;  padding-top:109px;padding-left:100px; }
+.contentbm1{ color:#fff;  text-align:left; width:200px; overflow:hidden;  padding-top:30px;padding-left:0px; line-height:180%;}

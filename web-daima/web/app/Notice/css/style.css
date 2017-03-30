@@ -1,0 +1,18 @@
+* { -webkit-tap-highlight-color: transparent; outline: 0; }
+html { -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; font-family: Helvetica, "STHeiti STXihei" , "Microsoft JhengHei" , "Microsoft YaHei" ,Tohoma,Arial; }
+body { overflow-x: hidden; overflow-y: auto; font-family: "Microsoft Yahei" ,Arial, Helvetica, sans-serif; font-size: 14px; color: #fee084; margin: 0px; zoom: 1; background-color: #070011; }
+
+img { padding: 0; margin: 0; border: 0; }
+img a { padding: 0; margin: 0; border: 0; }
+img a:hover { padding: 0; margin: 0; border: 0; }
+h1, h2, h3 { font-family: "Microsoft Yahei" ,Arial, Helvetica, sans-serif; }
+/* Customize container */
+@media (min-width: 430px) {
+    .container { max-width: 430px !important; /*background:#fff;*/ }
+}
+.container-narrow > hr { margin: 0; padding: 0; }
+.tb_box { background: url(../images/bg03.png); filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')"; -moz-background-size: 100% 100%; background-size: 100% 100%; min-height: 112px; }
+.tb_box .tab_tit { margin: 0; }
+.tb_box .tab_tit .left { float: left; width: 150px; text-align: center; display: block; background: url(../images/bg01.png); filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')"; -moz-background-size: 100% 100%; background-size: 100% 100%; margin: 0; font-size: 16px; line-height: 44px; font-weight: normal; color: #ffffa3; }
+.tb_box .tab_tit .right { float: right; width: 200px; text-align: center; display: block; font-size: 14px; line-height: 44px; color: #fee084; }
+.tb_box .tb_type { display: block; width: 90%; padding: 20px 5%; color: #fee084; font-size: 16px; line-height: 25px; }
